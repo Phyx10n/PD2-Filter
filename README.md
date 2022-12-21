@@ -1,4 +1,4 @@
-+# Phyxion's PD2-Filter
+# Phyxion's PD2-Filter
 A simple, clean, community driven loot filter
 
 The goal of this filter was to provide a simple, and lightweight lootfilter to eliminate the clutter on the ground, while highlighting the items that are worth picking up. 
