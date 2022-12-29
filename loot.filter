@@ -1,4 +1,5 @@
-/~~~Strictness Levels~~~
+/~~~Filter Levels~~~
+ItemDisplayFilterName[]: Starter
 ItemDisplayFilterName[]: Relaxed
 ItemDisplayFilterName[]: Medium
 ItemDisplayFilterName[]: Strict
@@ -534,7 +535,7 @@ ItemDisplay[CRAFT]:%ORANGE%%NAME%%CONTINUE%
 ItemDisplay[(ARMOR OR WEAPON) NMAG !ETH SOCK=0]:%WHITE%%NAME%%CONTINUE%
 ItemDisplay[(ARMOR OR WEAPON) NMAG (SOCK>0 OR ETH)]:%GRAY%%NAME%%CONTINUE%
 \~~~
-/~~~Recipes~~~
+/~~~Recipes/Descriptions~~~
 //Socket Recipes
 ItemDisplay[NMAG !INF !SUP CHEST SOCK=0]:%NAME%{%TAN%Socket%WHITE%: %ORANGE%Tal %WHITE%+ %ORANGE%Thul %WHITE%+ %YELLOW%O}%CONTINUE%
 ItemDisplay[NMAG !INF !SUP WEAPON !THROWING SOCK=0]:%NAME%{%TAN%Socket%WHITE%: %ORANGE%Ral %WHITE%+ %ORANGE%Amn %WHITE%+ %PURPLE%O}%CONTINUE%
@@ -568,8 +569,7 @@ ItemDisplay[rera]:%NAME%{%YELLOW%Map %WHITE%+ %GOLD%Orb %WHITE%+ Gem + %ORANGE%R
 ItemDisplay[upmp]:%NAME%{%WHITE%3 %TAN%x %WHITE%Map %WHITE%+ %GOLD%Orb%NL%%TAN%Upgrade map tier%WHITE%:}%CONTINUE%
 ItemDisplay[fort]:%GOLD%%NAME%{%WHITE%Map %WHITE%+ %GOLD%Orb%NL%%TAN%Fortify Map%WHITE%:}%CONTINUE%
 ItemDisplay[scrb]:%NAME%{%ORANGE%T3 %WHITE%Map %WHITE%+ %GOLD%Orb%NL%%TAN%Upgrade to dungeon%WHITE%:}%CONTINUE%
-\~~~
-/~~~Map Descriptions~~~
+//Map Resists
 ItemDisplay[t22]:%NAME%{%GREEN%85% %WHITE%* %ORANGE%50% %WHITE%* %GOLD%50%%NL%%RED%80% %WHITE%* %YELLOW%105% %WHITE%* %BLUE%140%%NL%%TAN%Enemy Resistances%WHITE%:%NAME%}%CONTINUE%
 ItemDisplay[t12]:%NAME%{%GREEN%120% %WHITE%* %ORANGE%50% %WHITE%* %GOLD%50%%NL%%RED%135% %WHITE%* %YELLOW%80% %WHITE%* %BLUE%80%%NL%%TAN%Enemy Resistances%WHITE%:%NAME%}%CONTINUE%
 ItemDisplay[t13]:%NAME%{%GREEN%85% %WHITE%* %ORANGE%50% %WHITE%* %GOLD%110%%NL%%RED%75% %WHITE%* %YELLOW%135% %WHITE%* %BLUE%85%%NL%%TAN%Enemy Resistances%WHITE%:%NAME%}%CONTINUE%
@@ -595,9 +595,7 @@ ItemDisplay[t3a]:%NAME%{%GREEN%130% %WHITE%* %ORANGE%120% %WHITE%* %GOLD%50%%NL%
 ItemDisplay[t41]:%NAME%{%GREEN%180% %WHITE%* %ORANGE%180% %WHITE%* %GOLD%180%%NL%%RED%180% %WHITE%* %YELLOW%180% %WHITE%* %BLUE%180%%NL%%TAN%Enemy Resistances%WHITE%:%NAME%}%CONTINUE%
 ItemDisplay[t42]:%NAME%{%GREEN%180% %WHITE%* %ORANGE%180% %WHITE%* %GOLD%180%%NL%%RED%180% %WHITE%* %YELLOW%180% %WHITE%* %BLUE%180%%NL%%TAN%Enemy Resistances%WHITE%:%NAME%}%CONTINUE%
 ItemDisplay[t43]:%NAME%{%GREEN%180% %WHITE%* %ORANGE%180% %WHITE%* %GOLD%180%%NL%%RED%180% %WHITE%* %YELLOW%180% %WHITE%* %BLUE%180%%NL%%TAN%Enemy Resistances%WHITE%:%NAME%}%CONTINUE%
-\~~~
-/~~~Rune/Gem Descriptions~~~
-//Runes
+//Rune Descriptions
 ItemDisplay[r01s]:%NAME%{%NL%%WHITE%Shield: +15 Defense, +1 to Light Radius%NL%Armor: +15 Defense, +1 to Light Radius%NL%Weapon: +50 to Attack Rating, +1 to Light Radius%NL%}%CONTINUE%
 ItemDisplay[r02s]:%NAME%{%NL%%WHITE%Shield: 7% Increased Chance of Blocking%NL%Armor: 15% Slower Stamina Drain%NL%Weapon: +75% Damage to Undead, +50 to Attack Rating against Undead%NL%}%CONTINUE%
 ItemDisplay[r03s]:%NAME%{%NL%%WHITE%Shield: +2 to Mana after each Kill%NL%Armor: +2 to Mana after each Kill%NL%Weapon: +2 to Mana after each Kill%NL%}%CONTINUE%
@@ -631,7 +629,7 @@ ItemDisplay[r30s]:%NAME%{%NL%%WHITE%Shield: Physical Damage Taken Reduced by 5%%
 ItemDisplay[r31s]:%NAME%{%NL%%WHITE%Shield: +50 to Life%NL%Armor: Increase Maximum Life 5%%NL%Weapon: Ignore Target's Defense%NL%}%CONTINUE%
 ItemDisplay[r32s]:%NAME%{%NL%%WHITE%Shield: Cannot Be Frozen%NL%Armor: Cannot Be Frozen%NL%Weapon: Freezes Target +3%NL%}%CONTINUE%
 ItemDisplay[r33s]:%NAME%{%NL%%WHITE%Shield: Indestructible%NL%Armor: Indestructible%NL%Weapon: Indestructible%NL%}%CONTINUE%
-//Gems
+//Gem Descriptions
 ItemDisplay[glbs]:%NAME%{%NL%%WHITE%Shield: Cold Resist +28%%NL%Armor: +31 to Mana%NL%Weapon: Adds 6-10 Cold Damage%NL%}%CONTINUE%
 ItemDisplay[gpbs]:%NAME%{%NL%%WHITE%Shield: Cold Resist +40%%NL%Armor: +38 to Mana%NL%Weapon: Adds 10-14 Cold Damage%NL%}%CONTINUE%
 ItemDisplay[glgs]:%NAME%{%NL%%WHITE%Shield: Poison Resist +28%%NL%Armor: +8 to Dexterity%NL%Weapon: +60 Poison Damage over 6 Seconds%NL%}%CONTINUE%
@@ -714,6 +712,7 @@ ItemDisplay[GOLD<900 CLVL>79]:
 ItemDisplay[GOLD<1000 CLVL>89]:
 ItemDisplay[GOLD<1250 CLVL>89 FILTLVL>1]:
 ItemDisplay[GOLD<1500 CLVL>89 FILTLVL>2]:
+ItemDisplay[GOLD<2000 CLVL>89 FILTLVL>3]:
 //Potions
 ItemDisplay[hp1]:%RED%H%WHITE%1%CONTINUE%
 ItemDisplay[hp2]:%RED%H%WHITE%2%CONTINUE%
@@ -731,7 +730,7 @@ ItemDisplay[(hp1 OR mp1) CLVL>14]:
 ItemDisplay[(hp2 OR mp2) CLVL>19]:
 ItemDisplay[(hp3 OR mp3) CLVL>24]:
 ItemDisplay[(hp4 OR mp4) CLVL>59]:
-ItemDisplay[(hp5 OR mp5) FILTLVL>3]:
+ItemDisplay[(hp5 OR mp5) FILTLVL=5]:
 ItemDisplay[rvs CLVL>79]:
 //Utility
 ItemDisplay[tsc OR isc OR wms OR yps OR vps OR gpm OR opm OR opl OR ops OR gps OR gpl OR key]:
@@ -751,26 +750,32 @@ ItemDisplay[GEM=4 OR gzv OR glw OR glg OR glr OR glb OR gly OR skl]:%NAME%%WHITE
 ItemDisplay[GEM=5 OR gpv OR gpw OR gpg OR gpr OR gpb OR gpy OR skz]:%NAME%%WHITE%5%CONTINUE%{%NAME%}
 ItemDisplay[GEMTYPE>0]:%NAME%%TAN%) %WHITE%%GEMTYPE%%CONTINUE%%WHITE%{%NAME%}
 ItemDisplay[GEMTYPE>0 QTY>1]:%NAME% %TAN%x%WHITE% %QTY%%CONTINUE%%WHITE%{%NAME%}
-ItemDisplay[GEMTYPE>0 (GEM=4 OR gzv OR glw OR glg OR glr OR glb OR gly OR skl)]:%RED%* %NAME% %RED%*%PX-20%%WHITE%{%NAME%}
-ItemDisplay[GEMTYPE>0 (GEM=5 OR gpv OR gpw OR gpg OR gpr OR gpb OR gpy OR skz)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-20%%WHITE%{%NAME%}
+ItemDisplay[GEMTYPE>0 (GEM=4 OR gzv OR glw OR glg OR glr OR glb OR gly OR skl) FILTLVL<4]:%RED%* %NAME% %RED%*%PX-20%%WHITE%{%NAME%}
+ItemDisplay[GEMTYPE>0 (GEM=4 OR gzv OR glw OR glg OR glr OR glb OR gly OR skl) FILTLVL>3]:%NAME%{%NAME%}
+ItemDisplay[GEMTYPE>0 (GEM=5 OR gpv OR gpw OR gpg OR gpr OR gpb OR gpy OR skz)]:%RED%* %NAME% %RED%*%DOT-20%%WHITE%{%NAME%}
 ItemDisplay[GEMTYPE>0 GEM<4]:
 //Runes
 ItemDisplay[RUNE>0]:%RUNENAME%{%NAME%}%CONTINUE%
 ItemDisplay[RUNE>0 QTY>1]:%NAME% %TAN%x%WHITE% %QTY%{%NAME%}%CONTINUE%
 ItemDisplay[RUNE>0]:%TAN%(%WHITE%%RUNENUM%%TAN%) %NAME%{%NAME%}%CONTINUE%%WHITE%
-ItemDisplay[RUNE>0 AND RUNE<10]:%RED%* %NAME% %RED%*%PX-62%%WHITE%{%NAME%}
-ItemDisplay[RUNE>9 AND RUNE<21]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-62%%WHITE%{%NAME%}
+ItemDisplay[RUNE=1 OR RUNE=2 OR RUNE=4 OR RUNE=5 OR RUNE=6 OR RUNE=7 OR RUNE=9 FILTLVL<4]:%RED%* %NAME% %RED%*%PX-62%%WHITE%{%NAME%}
+ItemDisplay[RUNE=1 OR RUNE=2 OR RUNE=4 OR RUNE=5 OR RUNE=6 OR RUNE=7 OR RUNE=9 FILTLVL>3]:%NAME%
+ItemDisplay[RUNE>0 AND RUNE<16]:%RED%* %NAME% %RED%*%PX-62%%WHITE%{%NAME%}
+ItemDisplay[RUNE>15 AND RUNE<21]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-62%%WHITE%{%NAME%}
 ItemDisplay[RUNE>20 AND RUNE<26]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-62%%WHITE%{%NAME%}
-ItemDisplay[(RUNE>25 AND RUNE<28) OR (RUNE>31)]:%RED%*%ORANGE%*%YELLOW%*%GREEN%* %NAME% %GREEN%*%YELLOW%*%ORANGE%*%RED%*%BORDER-62%%WHITE%{%NAME%}
+ItemDisplay[(RUNE>25 AND RUNE<28) OR (RUNE>31)]:%RED%*%ORANGE%*%YELLOW%*%GREEN%* %NAME% %GREEN%*%YELLOW%*%ORANGE%*%RED%*%MAP-62%%WHITE%{%NAME%}
 ItemDisplay[RUNE>27]:%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%* %NAME% %BLUE%*%GREEN%*%YELLOW%*%ORANGE%*%RED%*%BORDER-62%%WHITE%{%NAME%}
 //Misc
 ItemDisplay[(jewf OR wss OR lpp OR lbox) QTY>1]:%NAME% %TAN%x %WHITE%%QTY%%CONTINUE%
-ItemDisplay[wss OR lpp]:%RED%* %NAME% %RED%*%DOT-62%%WHITE%
-ItemDisplay[lbox OR rkey OR lsvl OR llmr]:%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%* %NAME% %BLUE%*%GREEN%*%YELLOW%*%ORANGE%*%RED%*%BORDER-62%%WHITE%
+ItemDisplay[lsvl OR llmr]:%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%PURPLE%* %NAME% %PURPLE%*%BLUE%*%GREEN%*%YELLOW%*%ORANGE%*%RED%*%BORDER-62%%WHITE%
+ItemDisplay[rkey]:%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%* %NAME% %BLUE%*%GREEN%*%YELLOW%*%ORANGE%*%RED%*%BORDER-62%%WHITE%
+ItemDisplay[lbox]:%RED%*%ORANGE%*%YELLOW%*%GREEN%* %NAME% %GREEN%*%YELLOW%*%ORANGE%*%RED%*%MAP-62%%WHITE%
+ItemDisplay[lpp]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-62%%WHITE%
+ItemDisplay[wss]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-62%%WHITE%
 //Map Orbs
 ItemDisplay[(imma OR imra OR upma OR scou OR rera OR upmp OR fort OR scrb) QTY>1]:%NAME%{%NAME%} %TAN%x %WHITE%%QTY%%CONTINUE%
 ItemDisplay[(imma OR imra OR upma OR scou OR rera OR upmp OR fort)]:%RED%* %NAME%{%NAME%} %RED%*%PX-62%%WHITE%
-ItemDisplay[scrb)]:%RED%*%GREEN%*%BLUE%* %NAME%{%NAME%} %BLUE%*%GREEN%*%RED%*%MAP-62%%WHITE%
+ItemDisplay[scrb)]:%RED%*%ORANGE%* %GOLD%%NAME% %ORANGE%*%RED%*%DOT-62%%WHITE%
 //Maps
 ItemDisplay[t12 OR t13 OR t16 OR t21 OR t22 OR t23 OR t33]:%RED%* %TAN%(%ORANGE%T1%TAN%) %WHITE%%NAME%{%NAME%} %RED%*%DOT-60%%WHITE%
 ItemDisplay[t11 OR t14 OR t15 OR t26 OR t34 OR t36]:%RED%* %TAN%(%ORANGE%T2%TAN%) %WHITE%%NAME%{%NAME%} %RED%*%DOT-60%%WHITE%
@@ -782,21 +787,24 @@ ItemDisplay[bet OR ceh OR fed OR tes]:%RED%* %ORANGE%%NAME% %RED%*%WHITE%%DOT-62
 ItemDisplay[toa]:%ORANGE%Token of Absolution%WHITE%{%TAN%Right-click to reset stats/skills}
 //Uber Tristram
 ItemDisplay[(pk1 OR pk2 OR pk3 OR dhn OR bey OR mbr OR std) QTY>1]:%NAME% %TAN%x %WHITE%%QTY%%CONTINUE%
-ItemDisplay[pk1 OR pk2 OR pk3]:%RED%* %ORANGE%%NAME% %RED%*%DOT-62%%WHITE%
-ItemDisplay[dhn OR bey OR mbr]:%RED%*%GREEN%*%BLUE%* %ORANGE%%NAME% %BLUE%*%GREEN%*%RED%*%DOT-62%%WHITE%
-ItemDisplay[std]:%RED%* %GOLD%%NAME% %RED%*%DOT-62%%WHITE%
+ItemDisplay[dhn OR bey OR mbr]:%RED%*%ORANGE%*%YELLOW%* %ORANGE%%NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-62%%WHITE%
+ItemDisplay[pk1 OR pk2 OR pk3]:%RED%*%ORANGE%* %ORANGE%%NAME% %ORANGE%*%RED%*%DOT-62%%WHITE%
+ItemDisplay[std]:%RED%*%ORANGE%* %GOLD%%NAME% %ORANGE%*%RED%*%DOT-62%%WHITE%
 //Uber Ancients
 ItemDisplay[(ubaa OR ubab OR ubac) QTY>1]:%NAME% %TAN%x %WHITE%%QTY%%CONTINUE%
-ItemDisplay[ubaa OR ubab OR ubac]:%RED%*%GREEN%*%BLUE%* %ORANGE%%NAME% %BLUE%*%GREEN%*%RED%*%DOT-62%%WHITE%
+ItemDisplay[ubaa OR ubab OR ubac]:%RED%*%ORANGE%* %ORANGE%%NAME% %ORANGE%*%RED%*%DOT-62%%WHITE%
 //Diablo-Clone
 ItemDisplay[(dcso OR dcbl OR dcho) QTY>1]:%NAME% %TAN%x %WHITE%%QTY%%CONTINUE%
-ItemDisplay[dcso OR dcbl OR dcho]:%RED%*%GREEN%*%BLUE%* %ORANGE%%NAME% %BLUE%*%GREEN%*%RED%*%DOT-62%%WHITE%
+ItemDisplay[dcho]:%RED%*%ORANGE%*%YELLOW%*%GREEN%* %ORANGE%%NAME% %GREEN%*%YELLOW%*%ORANGE%*%RED%*%MAP-62%%WHITE%
+ItemDisplay[dcso]:%RED%*%ORANGE%*%YELLOW%* %ORANGE%%NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-62%%WHITE%
+ItemDisplay[dcbl]:%RED%*%ORANGE%* %ORANGE%%NAME% %ORANGE%*%RED%*%DOT-62%%WHITE%
 //Rathma
-ItemDisplay[(rtmv OR rtmo OR rtmf) QTY>1]:%NAME% %TAN%x %WHITE%%QTY%%CONTINUE%
-ItemDisplay[rtmv OR rtmo OR rtmf]:%RED%*%GREEN%*%BLUE%* %ORANGE%%NAME% %BLUE%*%GREEN%*%RED%*%DOT-62%%WHITE%
-ItemDisplay[rtp OR rid OR cwss]:%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%* %NAME% %BLUE%*%GREEN%*%YELLOW%*%ORANGE%*%RED%*%BORDER-0B%%GOLD%
+ItemDisplay[(rtmv OR rtmf OR cwss) QTY>1]:%NAME% %TAN%x %WHITE%%QTY%%CONTINUE%
+ItemDisplay[rtp OR rid]:%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%PURPLE%* %NAME% %PURPLE%*%BLUE%*%GREEN%*%YELLOW%*%ORANGE%*%RED%*%BORDER-0B%%WHITE%
+ItemDisplay[cwss]:%RED%*%ORANGE%*%YELLOW%*%GREEN%* %NAME% %GREEN%*%YELLOW%*%ORANGE%*%RED%*%MAP-0B%%GOLD%
+ItemDisplay[rtmv OR rtmo]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%DOT-62%%WHITE%
 //Quest
-ItemDisplay[bks OR bkd OR hdm OR tr1 OR ass OR msf OR vip OR hst OR j34 OR g34 OR xyz OR g33 OR bbb OR qbr OR qey OR qhr OR qf1 OR qf2 OR mss OR hfh OR ice OR tr2 OR leg]:%RED%* %GOLD%%NAME% %RED%*%PX-62%%WHITE%
+ItemDisplay[bks OR bkd OR hdm OR tr1 OR ass OR msf OR vip OR hst OR j34 OR g34 OR xyz OR g33 OR bbb OR qbr OR qey OR qhr OR qf1 OR qf2 OR mss OR hfh OR ice OR tr2 OR leg]:%RED%* %GOLD%%NAME% %RED%*%DOT-62%%WHITE%
 \~~~
 /~~~Unique Items~~~
 //DClone/Rathma
@@ -806,215 +814,202 @@ ItemDisplay[UNI !ID cm1]:%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%* %NAME% %BLUE%*%
 ItemDisplay[UNI !ID (amu OR rin OR jew OR cm2)]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-0B%
 ItemDisplay[UNI !ID cm3]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-0B%
 //Helm
-ItemDisplay[UNI !ID !ETH urn]:%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%* %NAME% %BLUE%*%GREEN%*%YELLOW%*%ORANGE%*%RED%*%BORDER-0B%
-ItemDisplay[UNI !ID !ETH (xhm OR uap OR uhm OR uh9 OR ci3)]:%RED%*%ORANGE%*%YELLOW%*%GREEN%* %NAME% %GREEN%*%YELLOW%*%ORANGE%*%RED%*%MAP-0B%
-ItemDisplay[UNI !ID !ETH (xh9 OR ulm OR usk OR ci2)]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-0B%
-ItemDisplay[UNI !ID !ETH xsk]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-0B%
-ItemDisplay[UNI !ID !ETH (cap OR skp OR crn OR xap OR xkp OR xrn) FILTLVL<3]:%RED%* %NAME% %RED%*%DOT-0B%
-ItemDisplay[UNI !ID ETH (xh9 OR usk)]:%RED%*%ORANGE%*%YELLOW%*%GREEN%* %NAME% %GREEN%*%YELLOW%*%ORANGE%*%RED%*%MAP-0B%
-ItemDisplay[UNI !ID ETH uhm]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-0B%
-ItemDisplay[UNI !ID ETH (xhm OR uap OR ulm OR uh9 OR ci2 OR ci3)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-0B%
-ItemDisplay[UNI !ID ETH (cap OR skp OR crn OR xap OR xkp OR xrn OR xsk) FILTLVL<3]:%RED%* %NAME% %RED%*%DOT-0B%
+ItemDisplay[UNI !ID !ETH (uap OR uhm OR urn OR uh9 OR ci2 OR ci3)]:%RED%*%ORANGE%*%YELLOW%*%GREEN%* %NAME% %GREEN%*%YELLOW%*%ORANGE%*%RED%*%MAP-0B%
+ItemDisplay[UNI !ID !ETH (xhm OR xsk OR xh9 OR ulm OR usk)]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-0B%
+ItemDisplay[UNI !ID !ETH (cap OR skp OR crn OR xap OR xkp OR xlm OR xrn) FILTLVL<4]:%RED%* %NAME% %RED%*%DOT-0B%
+ItemDisplay[UNI !ID ETH usk]:%RED%*%ORANGE%*%YELLOW%*%GREEN%* %NAME% %GREEN%*%YELLOW%*%ORANGE%*%RED%*%MAP-0B%
+ItemDisplay[UNI !ID ETH (xh9 OR uhm)]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-0B%
+ItemDisplay[UNI !ID ETH (xhm OR xsk OR uap OR ulm OR uh9 OR ci2 OR ci3)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-0B%
+ItemDisplay[UNI !ID ETH (cap OR skp OR crn OR xap OR xkp OR xlm OR xrn) FILTLVL<4]:%RED%* %NAME% %RED%*%DOT-0B%
 //Chest
 ItemDisplay[UNI !ID !ETH uar]:%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%* %NAME% %BLUE%*%GREEN%*%YELLOW%*%ORANGE%*%RED%*%BORDER-0B%
 ItemDisplay[UNI !ID !ETH (xea OR xtp OR uui OR upl OR uld)]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-0B%
-ItemDisplay[UNI !ID !ETH (rng OR brs OR ltp OR xng OR xhn OR xpl OR xlt OR xld OR xth OR xul OR xar OR utu OR uul OR utp)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-0B%
-ItemDisplay[UNI !ID !ETH (hla OR spl OR fld OR gth OR aar OR xui OR xcl OR xrs) FILTLVL<3]:%RED%* %NAME% %RED%*%DOT-0B%
+ItemDisplay[UNI !ID !ETH (brs OR ltp OR xng OR xhn OR xpl OR xlt OR xld OR xth OR xul OR xar OR utu OR uul OR utp)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-0B%
+ItemDisplay[UNI !ID !ETH (hla OR rng OR spl OR fld OR gth OR aar OR xui OR xcl OR xrs) FILTLVL<4]:%RED%* %NAME% %RED%*%DOT-0B%
 ItemDisplay[UNI !ID ETH (uar OR utp)]:%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%* %NAME% %BLUE%*%GREEN%*%YELLOW%*%ORANGE%*%RED%*%BORDER-0B%
-ItemDisplay[UNI !ID ETH (xhn OR uul)]:%RED%*%ORANGE%*%YELLOW%*%GREEN%* %NAME% %GREEN%*%YELLOW%*%ORANGE%*%RED%*%MAP-0B%
-ItemDisplay[UNI !ID ETH xpl]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-0B%
-ItemDisplay[UNI !ID ETH (xea OR xlt OR xld OR xth OR xul OR xar OR xtp OR uui OR utu OR upl)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-0B%
-ItemDisplay[UNI !ID ETH (hla OR rng OR brs OR spl OR fld OR gth OR aar OR ltp OR xui OR xng OR xcl OR xrs) FILTLVL<3]:%RED%* %NAME% %RED%*%DOT-0B%
+ItemDisplay[UNI !ID ETH uul]:%RED%*%ORANGE%*%YELLOW%*%GREEN%* %NAME% %GREEN%*%YELLOW%*%ORANGE%*%RED%*%MAP-0B%
+ItemDisplay[UNI !ID ETH (xhn OR xpl OR utu)]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-0B%
+ItemDisplay[UNI !ID ETH (xea OR xlt OR xth OR xul OR xar OR xtp OR uui OR upl)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-0B%
+ItemDisplay[UNI !ID ETH (hla OR rng OR brs OR spl OR fld OR gth OR aar OR ltp OR xui OR xng OR xcl OR xrs OR xld) FILTLVL<4]:%RED%* %NAME% %RED%*%DOT-0B%
 //Gloves
 ItemDisplay[UNI !ID !ETH (uvg OR umg)]:%RED%*%ORANGE%*%YELLOW%*%GREEN%* %NAME% %GREEN%*%YELLOW%*%ORANGE%*%RED%*%MAP-0B%
 ItemDisplay[UNI !ID !ETH (utg OR uhg)]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-0B%
 ItemDisplay[UNI !ID !ETH (mgl OR tgl OR xlg OR xvg OR xmg OR xtg OR xhg)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-0B%
-ItemDisplay[UNI !ID !ETH (lgl OR vgl OR hgl) FILTLVL<3]:%RED%* %NAME% %RED%*%DOT-0B%
+ItemDisplay[UNI !ID !ETH (lgl OR vgl OR hgl) FILTLVL<4]:%RED%* %NAME% %RED%*%DOT-0B%
 ItemDisplay[UNI !ID ETH (uvg OR umg)]:%RED%*%ORANGE%*%YELLOW%*%GREEN%* %NAME% %GREEN%*%YELLOW%*%ORANGE%*%RED%*%MAP-0B%
 ItemDisplay[UNI !ID ETH (utg OR uhg)]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-0B%
-ItemDisplay[UNI !ID ETH (xvg OR xmg)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-0B%
-ItemDisplay[UNI !ID ETH (mgl OR tgl OR xlg OR xtg OR xhg) FILTLVL<3]:%RED%* %NAME% %RED%*%DOT-0B%
+ItemDisplay[UNI !ID ETH (mgl OR xvg OR xmg OR xhg)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-0B%
+ItemDisplay[UNI !ID ETH (tgl OR xlg OR xtg) FILTLVL<4]:%RED%* %NAME% %RED%*%DOT-0B%
 //Belt
-ItemDisplay[UNI !ID !ETH ulc]:%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%* %NAME% %BLUE%*%GREEN%*%YELLOW%*%ORANGE%*%RED%*%BORDER-0B%
-ItemDisplay[UNI !ID !ETH uvc]:%RED%*%ORANGE%*%YELLOW%*%GREEN%* %NAME% %GREEN%*%YELLOW%*%ORANGE%*%RED%*%MAP-0B%
+ItemDisplay[UNI !ID !ETH (ulc OR uvc)]:%RED%*%ORANGE%*%YELLOW%*%GREEN%* %NAME% %GREEN%*%YELLOW%*%ORANGE%*%RED%*%MAP-0B%
 ItemDisplay[UNI !ID !ETH (zlb OR zhb OR umc)]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-0B%
 ItemDisplay[UNI !ID !ETH (tbl OR zvb OR ztb)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-0B%
-ItemDisplay[UNI !ID !ETH (vbl OR hbl OR zmb) FILTLVL<3]:%RED%* %NAME% %RED%*%DOT-0B%
+ItemDisplay[UNI !ID !ETH (vbl OR mbl OR hbl OR zmb) FILTLVL<4]:%RED%* %NAME% %RED%*%DOT-0B%
 ItemDisplay[UNI !ID ETH (zlb OR uvc)]:%RED%*%ORANGE%*%YELLOW%*%GREEN%* %NAME% %GREEN%*%YELLOW%*%ORANGE%*%RED%*%MAP-0B%
 ItemDisplay[UNI !ID ETH umc]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-0B%
 ItemDisplay[UNI !ID ETH (tbl OR zvb OR ztb OR zhb OR ulc)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-0B%
+ItemDisplay[UNI !ID ETH mbl FILTLVL<4]:%RED%* %NAME% %RED%*%DOT-0B%
 //Boots
-ItemDisplay[UNI !ID !ETH (xtb OR xhb)]:%RED%*%ORANGE%*%YELLOW%*%GREEN%* %NAME% %GREEN%*%YELLOW%*%ORANGE%*%RED%*%MAP-0B%
-ItemDisplay[UNI !ID !ETH (umb OR uhb)]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-0B%
-ItemDisplay[UNI !ID !ETH (mbt OR tbt OR xvb OR ulb OR uvb)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-0B%
-ItemDisplay[UNI !ID !ETH (lbt OR vbt OR hbt OR xlb OR xmb) FILTLVL<3]:%RED%* %NAME% %RED%*%DOT-0B%
-ItemDisplay[UNI !ID ETH xhb]:%RED%*%ORANGE%*%YELLOW%*%GREEN%* %NAME% %GREEN%*%YELLOW%*%ORANGE%*%RED%*%MAP-0B%
-ItemDisplay[UNI !ID ETH (uvb OR umb)]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-0B%
-ItemDisplay[UNI !ID ETH (mbt OR tbt OR xtb OR uhb)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-0B%
-ItemDisplay[UNI !ID ETH (xlb OR xvb OR ulb) FILTLVL<3]:%RED%* %NAME% %RED%*%DOT-0B%
+ItemDisplay[UNI !ID !ETH xtb]:%RED%*%ORANGE%*%YELLOW%*%GREEN%* %NAME% %GREEN%*%YELLOW%*%ORANGE%*%RED%*%MAP-0B%
+ItemDisplay[UNI !ID !ETH (xhb OR umb OR uhb)]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-0B%
+ItemDisplay[UNI !ID !ETH (lbt OR mbt OR tbt OR xvb OR ulb OR uvb)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-0B%
+ItemDisplay[UNI !ID !ETH (vbt OR hbt OR xlb OR xmb) FILTLVL<4]:%RED%* %NAME% %RED%*%DOT-0B%
+ItemDisplay[UNI !ID ETH uvb]:%RED%*%ORANGE%*%YELLOW%*%GREEN%* %NAME% %GREEN%*%YELLOW%*%ORANGE%*%RED%*%MAP-0B%
+ItemDisplay[UNI !ID ETH (xhb OR umb)]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-0B%
+ItemDisplay[UNI !ID ETH (lbt OR mbt OR tbt OR xtb OR uhb)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-0B%
+ItemDisplay[UNI !ID ETH (hbt OR xlb OR xvb OR ulb) FILTLVL<4]:%RED%* %NAME% %RED%*%DOT-0B%
 //Shield
 ItemDisplay[UNI !ID !ETH uts]:%RED%*%ORANGE%*%YELLOW%*%GREEN%* %NAME% %GREEN%*%YELLOW%*%ORANGE%*%RED%*%MAP-0B%
 ItemDisplay[UNI !ID !ETH (xow OR xsh OR uit OR uow OR ush)]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-0B%
-ItemDisplay[UNI !ID !ETH (xpk OR uml OR upk)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-0B%
-ItemDisplay[UNI !ID !ETH (kit OR xuc OR xml OR xrg OR xit) FILTLVL<3]:%RED%* %NAME% %RED%*%DOT-0B%
+ItemDisplay[UNI !ID !ETH (xml OR xts OR xpk OR uml OR upk)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-0B%
+ItemDisplay[UNI !ID !ETH (kit OR xuc OR xrg OR xit) FILTLVL<4]:%RED%* %NAME% %RED%*%DOT-0B%
 ItemDisplay[UNI !ID ETH (xow OR xsh OR uow OR uts OR ush)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-0B%
-ItemDisplay[UNI !ID ETH (kit OR xuc OR xml OR xrg OR xit OR xpk OR uml OR upk) FILTLVL<3]:%RED%* %NAME% %RED%*%DOT-0B%
+ItemDisplay[UNI !ID ETH (kit OR xuc OR xml OR xrg OR xit OR xts OR xpk OR uml OR upk) FILTLVL<4]:%RED%* %NAME% %RED%*%DOT-0B%
 //Axe
-ItemDisplay[UNI !ID !ETH (7wa OR 7bt OR 7ga OR 7gi OR 7b8)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-0B%
-ItemDisplay[UNI !ID !ETH (gax OR gix OR 9ax OR 92a OR 9la OR 9ba OR 9bt OR 9gi OR 7ha OR 72a OR 7ta) FILTLVL<3]:%RED%* %NAME% %RED%*%DOT-0B%
+ItemDisplay[UNI !ID !ETH (72a OR 7wa OR 7bt OR 7ga OR 7gi OR 7ta OR 7b8)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-0B%
+ItemDisplay[UNI !ID !ETH (gax OR gix OR 9ax OR 92a OR 9la OR 9ba OR 9bt OR 9gi OR 7ha) FILTLVL<4]:%RED%* %NAME% %RED%*%DOT-0B%
 ItemDisplay[UNI !ID ETH 7b8]:%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%* %NAME% %BLUE%*%GREEN%*%YELLOW%*%ORANGE%*%RED%*%BORDER-0B%
 ItemDisplay[UNI !ID ETH (7wa OR 7ga OR 7gi)]:%RED%*%ORANGE%*%YELLOW%*%GREEN%* %NAME% %GREEN%*%YELLOW%*%ORANGE%*%RED%*%MAP-0B%
-ItemDisplay[UNI !ID ETH 7bt]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-0B%
-ItemDisplay[UNI !ID ETH (72a OR 7ta)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-0B%
-ItemDisplay[UNI !ID ETH (gax OR gix OR 9ax OR 92a OR 9la OR 9ba OR 9bt OR 9gi OR 7ha OR 7ba) FILTLVL<3]:%RED%* %NAME% %RED%*%DOT-0B%
+ItemDisplay[UNI !ID ETH (72a OR 7bt OR 7ta)]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-0B%
+ItemDisplay[UNI !ID ETH (gax OR gix OR 9ax OR 92a OR 9la OR 9ba OR 9bt OR 9gi OR 7ha OR 7ba) FILTLVL<4]:%RED%* %NAME% %RED%*%DOT-0B%
 //Bow
 ItemDisplay[UNI !ID !ETH 6lw]:%RED%*%ORANGE%*%YELLOW%*%GREEN%* %NAME% %GREEN%*%YELLOW%*%ORANGE%*%RED%*%MAP-0B%
 ItemDisplay[UNI !ID !ETH 8s8]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-0B%
-ItemDisplay[UNI !ID !ETH (8sw OR 6l7 OR 8mx OR 8hx OR 8rx OR 6hx OR 6rx)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-0B%
-ItemDisplay[UNI !ID !ETH (cbw OR swb OR 8lb OR 8l8 OR 8lw OR 6sw OR rxb) FILTLVL<3]:%RED%* %NAME% %RED%*%DOT-0B%
+ItemDisplay[UNI !ID !ETH (8sw OR 6l7 OR 6sw OR 8mx OR 8hx OR 8rx OR 6hx OR 6rx)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-0B%
+ItemDisplay[UNI !ID !ETH (cbw OR swb OR 8lb OR 8l8 OR 8lw OR rxb) FILTLVL<4]:%RED%* %NAME% %RED%*%DOT-0B%
 //Dagger
 ItemDisplay[UNI !ID !ETH (9bl OR 7dg OR 7kr)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-0B%
-ItemDisplay[UNI !ID !ETH (dgr OR kri OR bld OR 9dg OR 9di OR 9kr OR 9tk OR 7bk) FILTLVL<3]:%RED%* %NAME% %RED%*%DOT-0B%
+ItemDisplay[UNI !ID !ETH (dgr OR kri OR bld OR 9dg OR 9di OR 9kr OR 9tk OR 7bk) FILTLVL<4]:%RED%* %NAME% %RED%*%DOT-0B%
 ItemDisplay[UNI !ID ETH (7kr OR 7bk)]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-0B%
 ItemDisplay[UNI !ID ETH (9di OR 9bl OR 7bl OR 9tk)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-0B%
-ItemDisplay[UNI !ID ETH (kri OR bld OR 9dg OR 9kr) FILTLVL<3]:%RED%* %NAME% %RED%*%DOT-0B%
+ItemDisplay[UNI !ID ETH (kri OR bld OR 9dg OR 9kr) FILTLVL<4]:%RED%* %NAME% %RED%*%DOT-0B%
 //Mace
-ItemDisplay[UNI !ID !ETH (9ws OR 7ws)]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-0B%
-ItemDisplay[UNI !ID !ETH (7fl OR 9gm OR 7wh OR 7m7 OR 7gm OR 7sc OR 7qs)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-0B%
-ItemDisplay[UNI !ID !ETH (9cl OR 9sp OR 7cl OR 7sp OR 9ma OR 7mt OR mau OR gma OR 9wh OR 9m9 OR gsc OR wsp) FILTLVL<3]:%RED%* %NAME% %RED%*%DOT-0B%
+ItemDisplay[UNI !ID !ETH 7ws]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-0B%
+ItemDisplay[UNI !ID !ETH (7fl OR 9gm OR 7wh OR 7m7 OR 7gm OR 9ws OR 7sc OR 7qs)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-0B%
+ItemDisplay[UNI !ID !ETH (9cl OR 9sp OR 7cl OR 7sp OR 9ma OR 7mt OR mau OR gma OR 9wh OR 9m9 OR gsc OR wsp) FILTLVL<4]:%RED%* %NAME% %RED%*%DOT-0B%
 ItemDisplay[UNI !ID ETH (7wh OR 7gm)]:%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%* %NAME% %BLUE%*%GREEN%*%YELLOW%*%ORANGE%*%RED%*%BORDER-0B%
 ItemDisplay[UNI !ID ETH (9gm OR 7m7)]:%RED%*%ORANGE%*%YELLOW%*%GREEN%* %NAME% %GREEN%*%YELLOW%*%ORANGE%*%RED%*%MAP-0B%
-ItemDisplay[UNI !ID ETH 9ws]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-0B%
-ItemDisplay[UNI !ID ETH (7fl OR mau OR 7sc OR 7qs OR 7ws)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-0B%
-ItemDisplay[UNI !ID ETH (9cl OR 9sp OR 7cl OR 7sp OR 9ma OR 7mt OR gma OR 9wh OR 9m9 OR gsc OR wsp) FILTLVL<3]:%RED%* %NAME% %RED%*%DOT-0B%
+ItemDisplay[UNI !ID ETH 7ws]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-0B%
+ItemDisplay[UNI !ID ETH (7fl OR mau OR 9ws OR 7sc OR 7qs)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-0B%
+ItemDisplay[UNI !ID ETH (9cl OR 9sp OR 7cl OR 7sp OR 9ma OR 7mt OR gma OR 9wh OR 9m9 OR gsc OR wsp) FILTLVL<4]:%RED%* %NAME% %RED%*%DOT-0B%
 //Polearm
 ItemDisplay[UNI !ID !ETH (9s8 OR 9wc OR 7s8 OR 7wc)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-0B%
-ItemDisplay[UNI !ID !ETH (9vo OR 9pa OR 7o7 OR 7pa OR scy) FILTLVL<3]:%RED%* %NAME% %RED%*%DOT-0B%
+ItemDisplay[UNI !ID !ETH (9vo OR 9pa OR 7o7 OR 7pa OR scy) FILTLVL<4]:%RED%* %NAME% %RED%*%DOT-0B%
 ItemDisplay[UNI !ID ETH (7pa OR 7s8 OR 7wc)]:%RED%*%ORANGE%*%YELLOW%*%GREEN%* %NAME% %GREEN%*%YELLOW%*%ORANGE%*%RED%*%MAP-0B%
 ItemDisplay[UNI !ID ETH 7o7]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-0B%
 ItemDisplay[UNI !ID ETH (9s8 OR 9wc)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-0B%
-ItemDisplay[UNI !ID ETH (9vo OR 9pa OR scy) FILTLVL<3]:%RED%* %NAME% %RED%*%DOT-0B%
+ItemDisplay[UNI !ID ETH (9vo OR 9pa OR scy) FILTLVL<4]:%RED%* %NAME% %RED%*%DOT-0B%
 //Spear
 ItemDisplay[UNI !ID !ETH 7p7]:%RED%*%ORANGE%*%YELLOW%*%GREEN%* %NAME% %GREEN%*%YELLOW%*%ORANGE%*%RED%*%MAP-0B%
 ItemDisplay[UNI !ID !ETH (7gl OR 7ts)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-0B%
-ItemDisplay[UNI !ID !ETH (9sr OR 9p9 OR 7sr OR 7br OR 7s7) FILTLVL<3]:%RED%* %NAME% %RED%*%DOT-0B%
+ItemDisplay[UNI !ID !ETH (9sr OR 9p9 OR 7sr OR 7br OR 7s7) FILTLVL<4]:%RED%* %NAME% %RED%*%DOT-0B%
 ItemDisplay[UNI !ID ETH 7p7]:%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%* %NAME% %BLUE%*%GREEN%*%YELLOW%*%ORANGE%*%RED%*%BORDER-0B%
 ItemDisplay[UNI !ID ETH (7gl OR 7ts)]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-0B%
 ItemDisplay[UNI !ID ETH (7sr OR 7br OR 7s7)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-0B%
-ItemDisplay[UNI !ID ETH (9sr OR 9p9) FILTLVL<3]:%RED%* %NAME% %RED%*%DOT-0B%
+ItemDisplay[UNI !ID ETH (9sr OR 9p9) FILTLVL<4]:%RED%* %NAME% %RED%*%DOT-0B%
 //Sword
 ItemDisplay[UNI !ID !ETH 7gd]:%RED%*%ORANGE%*%YELLOW%*%GREEN%* %NAME% %GREEN%*%YELLOW%*%ORANGE%*%RED%*%MAP-0B%
-ItemDisplay[UNI !ID !ETH (9ls OR 7ls)]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-0B%
-ItemDisplay[UNI !ID !ETH (9fc OR 9gs OR 7cr OR 7b7 OR 7fb)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-0B%
-ItemDisplay[UNI !ID !ETH (lsd OR gsd OR 9sb OR 9bs OR 9wd OR 92h OR 9cm OR 9fb OR 9gd OR 7sm OR 7sb OR 7gs) FILTLVL<3]:%RED%* %NAME% %RED%*%DOT-0B%
-ItemDisplay[UNI !ID ETH 7gd]:%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%* %NAME% %BLUE%*%GREEN%*%YELLOW%*%ORANGE%*%RED%*%BORDER-0B%
-ItemDisplay[UNI !ID ETH (7b7 OR 7fb)]:%RED%*%ORANGE%*%YELLOW%*%GREEN%* %NAME% %GREEN%*%YELLOW%*%ORANGE%*%RED%*%MAP-0B%
-ItemDisplay[UNI !ID ETH 9gs]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-0B%
-ItemDisplay[UNI !ID ETH (gsd OR 9fc OR 9ls OR 92h OR 7ls)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-0B%
-ItemDisplay[UNI !ID ETH (lsd OR 9sb OR 9bs OR 9wd OR 9cm OR 9fb OR 9gd OR 7sm OR 7sb OR 7gs) FILTLVL<3]:%RED%* %NAME% %RED%*%DOT-0B%
+ItemDisplay[UNI !ID !ETH 9ls]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-0B%
+ItemDisplay[UNI !ID !ETH (9fc OR 9gs OR 7cr OR 7ls OR 7gs OR 7b7 OR 7fb)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-0B%
+ItemDisplay[UNI !ID !ETH (lsd OR gsd OR 9sb OR 9bs OR 9wd OR 92h OR 9cm OR 9fb OR 9gd OR 7sm OR 7sb) FILTLVL<4]:%RED%* %NAME% %RED%*%DOT-0B%
+ItemDisplay[UNI !ID ETH (7fb OR 7gd)]:%RED%*%ORANGE%*%YELLOW%*%GREEN%* %NAME% %GREEN%*%YELLOW%*%ORANGE%*%RED%*%MAP-0B%
+ItemDisplay[UNI !ID ETH (9gs OR 7b7)]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-0B%
+ItemDisplay[UNI !ID ETH (gsd OR 9fc OR 9bs OR 9ls OR 92h OR 7ls OR 7gs)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-0B%
+ItemDisplay[UNI !ID ETH (lsd OR 9sb OR 9wd OR 9cm OR 9fb OR 9gd OR 7sm OR 7sb) FILTLVL<4]:%RED%* %NAME% %RED%*%DOT-0B%
 //Staff
 ItemDisplay[UNI !ID !ETH 6ws]:%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%* %NAME% %BLUE%*%GREEN%*%YELLOW%*%ORANGE%*%RED%*%BORDER-0B%
 ItemDisplay[UNI !ID !ETH 7gw]:%RED%*%ORANGE%*%YELLOW%*%GREEN%* %NAME% %GREEN%*%YELLOW%*%ORANGE%*%RED%*%MAP-0B%
 ItemDisplay[UNI !ID !ETH (6bs OR 9bw OR 7bw)]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-0B%
-ItemDisplay[UNI !ID !ETH 8ws]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-0B%
-ItemDisplay[UNI !ID !ETH (cst OR bst OR 8ls OR 8cs OR 8bs OR 6cs OR ywn OR bwn OR gwn OR 9wn OR 9yw OR 9gw) FILTLVL<3]:%RED%* %NAME% %RED%*%DOT-0B%
+ItemDisplay[UNI !ID !ETH (8ws OR 6cs)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-0B%
+ItemDisplay[UNI !ID !ETH (cst OR bst OR 8ls OR 8cs OR 8bs OR ywn OR bwn OR gwn OR 9wn OR 9yw OR 9gw) FILTLVL<4]:%RED%* %NAME% %RED%*%DOT-0B%
 ItemDisplay[UNI !ID ETH 6ws]:%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%* %NAME% %BLUE%*%GREEN%*%YELLOW%*%ORANGE%*%RED%*%BORDER-0B%
 ItemDisplay[UNI !ID ETH 7gw]:%RED%*%ORANGE%*%YELLOW%*%GREEN%* %NAME% %GREEN%*%YELLOW%*%ORANGE%*%RED%*%MAP-0B%
 ItemDisplay[UNI !ID ETH (6bs OR 9bw OR 7bw)]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-0B%
-ItemDisplay[UNI !ID ETH (8ls OR 8ws)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-0B%
-ItemDisplay[UNI !ID ETH (cst OR bst OR 8cs OR 8bs OR 6cs OR ywn OR bwn OR gwn OR 9yw) FILTLVL<3]:%RED%* %NAME% %RED%*%DOT-0B%
-//Amazon
-ItemDisplay[UNI !ID !ETH (amb OR amf)]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-0B%
-ItemDisplay[UNI !ID !ETH ama]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-0B%
-ItemDisplay[UNI !ID !ETH (am7 OR am9 OR amd OR ame OR am5) FILTLVL<3]:%RED%* %NAME% %RED%*%DOT-0B%
-ItemDisplay[UNI !ID ETH amf]:%RED%*%ORANGE%*%YELLOW%*%GREEN%* %NAME% %GREEN%*%YELLOW%*%ORANGE%*%RED%*%MAP-0B%
-ItemDisplay[UNI !ID ETH ama]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-0B%
-ItemDisplay[UNI !ID ETH (amd OR ame)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-0B%
-ItemDisplay[UNI !ID ETH am9 FILTLVL<3]:%RED%* %NAME% %RED%*%DOT-0B%
-//Assassin
-ItemDisplay[UNI !ID !ETH 9tw]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-0B%
-ItemDisplay[UNI !ID !ETH (7wb OR 7lw OR 7tw)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-0B%
-ItemDisplay[UNI !ID !ETH 9ar FILTLVL<3]:%RED%* %NAME% %RED%*%DOT-0B%
-ItemDisplay[UNI !ID ETH (9tw OR 7tw)]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-0B%
-ItemDisplay[UNI !ID ETH 7cs]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-0B%
-ItemDisplay[UNI !ID ETH (7wb OR 7lw) FILTLVL<3]:%RED%* %NAME% %RED%*%DOT-0B%
-//Barbarian
-ItemDisplay[UNI !ID !ETH baa]:%RED%*%ORANGE%*%YELLOW%*%GREEN%* %NAME% %GREEN%*%YELLOW%*%ORANGE%*%RED%*%MAP-0B%
-ItemDisplay[UNI !ID !ETH (bac OR bae)]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-0B%
-ItemDisplay[UNI !ID !ETH (ba6 OR bad OR baf)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-0B%
-ItemDisplay[UNI !ID ETH (ba6 OR baa OR bac OR bae)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-0B%
-ItemDisplay[UNI !ID ETH (bad OR baf) FILTLVL<3]:%RED%* %NAME% %RED%*%DOT-0B%
-//Druid
-ItemDisplay[UNI !ID !ETH dra]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-0B%
-ItemDisplay[UNI !ID !ETH (dr2 OR drb OR drd OR dre OR drf)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-0B%
-ItemDisplay[UNI !ID ETH dra]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-0B%
-ItemDisplay[UNI !ID ETH (dr2 OR drb OR drd OR dre OR drf) FILTLVL<3]:%RED%* %NAME% %RED%*%DOT-0B%
-//Paladin
-ItemDisplay[UNI !ID !ETH pa9]:%RED%*%ORANGE%*%YELLOW%*%GREEN%* %NAME% %GREEN%*%YELLOW%*%ORANGE%*%RED%*%MAP-0B%
-ItemDisplay[UNI !ID !ETH (pac OR pae)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-0B%
-ItemDisplay[UNI !ID !ETH pa3 FILTLVL<3]:%RED%* %NAME% %RED%*%DOT-0B%
-ItemDisplay[UNI !ID ETH pa9]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-0B%
-ItemDisplay[UNI !ID ETH (pac OR pae) FILTLVL<3]:%RED%* %NAME% %RED%*%DOT-0B%
-//Necromancer
-ItemDisplay[UNI !ID !ETH nee]:%RED%*%ORANGE%*%YELLOW%*%GREEN%* %NAME% %GREEN%*%YELLOW%*%ORANGE%*%RED%*%MAP-0B%
+ItemDisplay[UNI !ID ETH (8ls OR 8ws OR 6cs)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-0B%
+ItemDisplay[UNI !ID ETH (cst OR bst OR 8cs OR 8bs OR ywn OR bwn OR gwn OR 9wn OR 9yw OR 9gw) FILTLVL<4]:%RED%* %NAME% %RED%*%DOT-0B%
+//Class Armor
+ItemDisplay[UNI !ID !ETH (baa OR bac OR bae OR dra)]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-0B%
+ItemDisplay[UNI !ID !ETH (ba6 OR bad OR baf OR dr2 OR drb OR drd OR dre OR drf)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-0B%
+ItemDisplay[UNI !ID ETH (ba6 OR baa OR bac OR bae OR dra)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-0B%
+ItemDisplay[UNI !ID ETH (bad OR baf OR dr2 OR drb OR drd OR dre OR drf) FILTLVL<4]:%RED%* %NAME% %RED%*%DOT-0B%
+//Class Shield
+ItemDisplay[UNI !ID !ETH (pa9 OR nee)]:%RED%*%ORANGE%*%YELLOW%*%GREEN%* %NAME% %GREEN%*%YELLOW%*%ORANGE%*%RED%*%MAP-0B%
 ItemDisplay[UNI !ID !ETH nea]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-0B%
-ItemDisplay[UNI !ID !ETH (ned OR nef)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-0B%
-ItemDisplay[UNI !ID !ETH ne6 FILTLVL<3]:%RED%* %NAME% %RED%*%DOT-0B%
-ItemDisplay[UNI !ID ETH (nea OR nee)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-0B%
-ItemDisplay[UNI !ID ETH (ned OR nef) FILTLVL<3]:%RED%* %NAME% %RED%*%DOT-0B%
-//Sorceress
+ItemDisplay[UNI !ID !ETH (pac OR pae OR ned OR nef)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-0B%
+ItemDisplay[UNI !ID !ETH (pa3 OR ne6) FILTLVL<4]:%RED%* %NAME% %RED%*%DOT-0B%
+ItemDisplay[UNI !ID ETH (pa9 OR nea OR nee)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-0B%
+ItemDisplay[UNI !ID ETH (pac OR pae OR ned OR nef) FILTLVL<4]:%RED%* %NAME% %RED%*%DOT-0B%
+//Class Weapon
 ItemDisplay[UNI !ID !ETH obf]:%RED%*%ORANGE%*%YELLOW%*%GREEN%* %NAME% %GREEN%*%YELLOW%*%ORANGE%*%RED%*%MAP-0B%
-ItemDisplay[UNI !ID !ETH (oba OR obc)]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-0B%
-ItemDisplay[UNI !ID !ETH ob6 FILTLVL<3]:%RED%* %NAME% %RED%*%DOT-0B%
-ItemDisplay[UNI !ID ETH obf]:%RED%*%ORANGE%*%YELLOW%*%GREEN%* %NAME% %GREEN%*%YELLOW%*%ORANGE%*%RED%*%MAP-0B%
-ItemDisplay[UNI !ID ETH (oba OR obc)]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-0B%
+ItemDisplay[UNI !ID !ETH (amb OR amf OR 9tw OR oba OR obc)]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-0B%
+ItemDisplay[UNI !ID !ETH (ama OR 7wb OR 7lw OR 7tw)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-0B%
+ItemDisplay[UNI !ID !ETH (am7 OR am9 OR amd OR ame OR am5 OR 9ar OR ob6) FILTLVL<4]:%RED%* %NAME% %RED%*%DOT-0B%
+ItemDisplay[UNI !ID ETH (amf OR obf)]:%RED%*%ORANGE%*%YELLOW%*%GREEN%* %NAME% %GREEN%*%YELLOW%*%ORANGE%*%RED%*%MAP-0B%
+ItemDisplay[UNI !ID ETH (ama OR 9tw OR 7tw OR oba OR obc)]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-0B%
+ItemDisplay[UNI !ID ETH (amd OR ame OR 7cs)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-0B%
+ItemDisplay[UNI !ID ETH (am9 OR 9ar OR 7wb OR 7lw) FILTLVL<4]:%RED%* %NAME% %RED%*%DOT-0B%
 //Hide
-ItemDisplay[UNI !ID (ARMOR OR WEAPON) NORM FILTLVL>1]:
-ItemDisplay[UNI !ID (ARMOR OR WEAPON) FILTLVL>2]:
+ItemDisplay[UNI !ID NORM (ARMOR OR WEAPON) FILTLVL>1]:
+ItemDisplay[UNI !ID EXC (ARMOR OR WEAPON) FILTLVL>2]:
+ItemDisplay[UNI !ID FILTLVL>3]:
 \~~~
 /~~~Set Items~~~
 //Natalya's Odium
 ItemDisplay[SET !ID ucl]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-84%
-ItemDisplay[SET !ID (xh9 OR 7qr OR xmb) FILTLVL<3]:%RED%* %NAME% %RED%*%DOT-84%
+ItemDisplay[SET !ID (xh9 OR 7qr OR xmb) FILTLVL<4]:%RED%* %NAME% %RED%*%DOT-84%
 //Aldur's Watchtower
 ItemDisplay[SET !ID (dr8 OR uul)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-84%
-ItemDisplay[SET !ID (9mt OR xtb) FILTLVL<3]:%RED%* %NAME% %RED%*%DOT-84%
+ItemDisplay[SET !ID (9mt OR xtb) FILTLVL<4]:%RED%* %NAME% %RED%*%DOT-84%
 //Immortal King
 ItemDisplay[SET !ID uar]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-84%
-ItemDisplay[SET !ID (ba5 OR zhb OR xhg OR xhb OR 7m7) FILTLVL<3]:%RED%* %NAME% %RED%*%DOT-84%
+ItemDisplay[SET !ID (ba5 OR zhb OR xhg OR xhb OR 7m7) FILTLVL<4]:%RED%* %NAME% %RED%*%DOT-84%
 //Tal Rasha's Wrappings
 ItemDisplay[SET !ID uth]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-84%
-ItemDisplay[SET !ID (zmb OR amu OR oba OR xsk) FILTLVL<3]:%RED%* %NAME% %RED%*%DOT-84%
+ItemDisplay[SET !ID (zmb OR amu OR oba OR xsk) FILTLVL<4]:%RED%* %NAME% %RED%*%DOT-84%
 //Griswold's Legacy
 ItemDisplay[SET !ID (urn OR xar OR 7ws OR paf)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-84%
 //Trang-Oul's Avatar
 ItemDisplay[SET !ID (uh9 OR xul OR ne9 OR xmg OR utc)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-84%
 //M'avina's Battle Hymn
 ItemDisplay[SET !ID (uld OR amc)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-84%
-ItemDisplay[SET !ID (ci3 OR xtg OR zvb) FILTLVL<3]:%RED%* %NAME% %RED%*%DOT-84%
+ItemDisplay[SET !ID (ci3 OR xtg OR zvb) FILTLVL<4]:%RED%* %NAME% %RED%*%DOT-84%
 //The Disciple
 ItemDisplay[SET !ID ulg]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-84%
-ItemDisplay[SET !ID (amu OR xlb OR uui OR umc) FILTLVL<3]:%RED%* %NAME% %RED%*%DOT-84%
+ItemDisplay[SET !ID (amu OR xlb OR uui OR umc) FILTLVL<4]:%RED%* %NAME% %RED%*%DOT-84%
 //Heaven's Brethren
 ItemDisplay[SET !ID (uts OR uhm)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-84%
-ItemDisplay[SET !ID (7ma OR xrs) FILTLVL<3]:%RED%* %NAME% %RED%*%DOT-84%
+ItemDisplay[SET !ID (7ma OR xrs) FILTLVL<4]:%RED%* %NAME% %RED%*%DOT-84%
 //Orphan's Call
 ItemDisplay[SET !ID xhm]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-84%
-ItemDisplay[SET !ID (ztb OR xvg OR xml) FILTLVL<3]:%RED%* %NAME% %RED%*%DOT-84%
+ItemDisplay[SET !ID (ztb OR xvg OR xml) FILTLVL<4]:%RED%* %NAME% %RED%*%DOT-84%
 //Bul-Kathos' Children
-ItemDisplay[SET !ID (7gd OR 7fb OR rin) FILTLVL<3]:%RED%* %NAME% %RED%*%DOT-84%
+ItemDisplay[SET !ID (7gd OR 7fb OR rin) FILTLVL<4]:%RED%* %NAME% %RED%*%DOT-84%
 //Naj's Ancient Set
-ItemDisplay[SET !ID (6cs OR ult OR ci0) FILTLVL<3]:%RED%* %NAME% %RED%*%DOT-84%
+ItemDisplay[SET !ID (6cs OR ult OR ci0) FILTLVL<4]:%RED%* %NAME% %RED%*%DOT-84%
 //Hide
-ItemDisplay[SET !ID NORM FILTLVL>1]:
-ItemDisplay[SET !ID FILTLVL>2]:
+ItemDisplay[SET !ID NORM (ARMOR OR WEAPON) FILTLVL>1]:
+ItemDisplay[SET !ID EXC (ARMOR OR WEAPON) FILTLVL>2]:
+ItemDisplay[SET !ID FILTLVL>3]:
 \~~~
 /~~~Magic/Rare Items~~~ 
-ItemDisplay[RARE !ID (rin OR amu OR jew OR (!ETH EQ7))]:%RED%* %NAME% %RED%*%DOT-6F%%YELLOW%
-ItemDisplay[MAG !ID (cm1 OR cm2 OR cm3 OR jew)]:%RED%* %NAME% %RED%*%DOT-94%%BLUE%
-ItemDisplay[RARE !ID (aqv OR cqv) FILTLVL<3]:%RED%* %NAME% %RED%*%PX-6F%%YELLOW%
-ItemDisplay[MAG !ID (rin OR amu OR aqv OR cqv OR (!ETH EQ7)) FILTLVL<2]:%RED%* %NAME% %RED%*%PX-94%%BLUE%
-ItemDisplay[(MAG OR RARE) !ID (ARMOR OR WEAPON OR aqv OR cqv OR rin OR amu)]:
+//Misc
+ItemDisplay[RARE !ID (amu OR rin OR jew)]:%RED%* %NAME% %RED%*%DOT-6F%
+ItemDisplay[RARE !ID (aqv OR cqv) FILTLVL<4]:%RED%* %NAME% %RED%*%DOT-6F%
+ItemDisplay[MAG !ID (jew OR cm1 OR cm2 OR cm3)]:%RED%* %NAME% %RED%*%DOT-94%
+ItemDisplay[MAG !ID (amu OR rin) FILTLVL<4]:%RED%* %NAME% %RED%*%DOT-94%
+ItemDisplay[MAG !ID (aqv OR cqv) FILTLVL<3]:%RED%* %NAME% %RED%*%DOT-94%
+//Armor
+ItemDisplay[RARE !ID !ETH EQ7]:%RED%* %NAME% %RED%*%DOT-6F%
+ItemDisplay[RARE !ID !ETH EQ5 FILTLVL<4]:%RED%* %NAME% %RED%*%DOT-6F%
+ItemDisplay[RARE !ID !ETH (EQ1 OR EQ2 OR EQ3 OR EQ4 OR EQ6) FILTLVL<3]:%RED%* %NAME% %RED%*%DOT-6F%
+ItemDisplay[MAG !ID !ETH EQ7 FILTLVL<4]:%RED%* %NAME% %RED%*%DOT-94%
+//Class
+ItemDisplay[RARE !ID !ETH (CL1 OR CL2 OR CL3 OR CL4 OR CL5 OR CL6 OR CL7) FILTLVL<4]:%RED%* %NAME% %RED%*%DOT-6F%
+ItemDisplay[MAG !ID !ETH (CL1 OR CL2 OR CL3 OR CL4 OR CL5 OR CL6 OR CL7) FILTLVL<3]:%RED%* %NAME% %RED%*%DOT-94%
+//Hide
+ItemDisplay[(MAG OR RARE) !ID NORM (ARMOR OR WEAPON) FILTLVL>1]:
+ItemDisplay[(MAG OR RARE) !ID EXC (ARMOR OR WEAPON) FILTLVL>2]:
+ItemDisplay[(MAG OR RARE) !ID FILTLVL>3]:
 \~~~
 /~~~Bases~~~
 //Chests
