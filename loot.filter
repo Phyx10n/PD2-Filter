@@ -1006,6 +1006,9 @@ ItemDisplay[MAG !ID !ETH EQ7 FILTLVL<4]:%RED%* %NAME% %RED%*%DOT-94%
 //Class
 ItemDisplay[RARE !ID !ETH (CL1 OR CL2 OR CL3 OR CL4 OR CL5 OR CL6 OR CL7) FILTLVL<4]:%RED%* %NAME% %RED%*%DOT-6F%
 ItemDisplay[MAG !ID !ETH (CL1 OR CL2 OR CL3 OR CL4 OR CL5 OR CL6 OR CL7) FILTLVL<3]:%RED%* %NAME% %RED%*%DOT-94%
+//Crafting Bases
+ItemDisplay[(MAG OR RARE) !ID !ETH (am2 OR am7 OR amc)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-60%
+ItemDisplay[(MAG OR RARE) !ID ETH (mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm OR glv OR 9gl OR 7gl OR pik OR 9p9 OR 7p7 OR axf OR 9xf OR 7xf)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-60%
 //Hide
 ItemDisplay[MAG !ID FILTLVL>1]:
 ItemDisplay[RARE !ID FILTLVL>2]:
