@@ -1527,6 +1527,12 @@ ItemDisplay[hp5]:%RED%H%WHITE%5%CONTINUE%
 ItemDisplay[mp5]:%BLUE%M%WHITE%5%CONTINUE%
 ItemDisplay[rvs]:%PURPLE%R%WHITE%1%CONTINUE%
 ItemDisplay[rvl]:%PURPLE%* R%WHITE%2 %PURPLE%*%CONTINUE%
+ItemDisplay[(hp1 OR mp1) CLVL>14]:
+ItemDisplay[(hp2 OR mp2) CLVL>19]:
+ItemDisplay[(hp3 OR mp3) CLVL>24]:
+ItemDisplay[(hp4 OR mp4) CLVL>59]:
+ItemDisplay[rvs CLVL>79]:
+ItemDisplay[(hp5 OR mp5) FILTLVL=5]:
 //Gems
 ItemDisplay[GEMTYPE=1]:%TAN%(%PURPLE%O{%NAME%}%CONTINUE%
 ItemDisplay[GEMTYPE=2]:%TAN%(%WHITE%O{%NAME%}%CONTINUE%
@@ -1906,13 +1912,7 @@ ItemDisplay[NMAG !INF !RW !ETH SOCK>2 SWORD FILTLVL<3]:%NAME%{%NAME%}
 ItemDisplay[NMAG !INF !RW !ETH SOCK>1 SWORD FILTLVL<2]:%NAME%{%NAME%}
 \~~~
 /~~~Hide~~~
-//Potions
-ItemDisplay[(hp1 OR mp1) CLVL>14]:
-ItemDisplay[(hp2 OR mp2) CLVL>19]:
-ItemDisplay[(hp3 OR mp3) CLVL>24]:
-ItemDisplay[(hp4 OR mp4) CLVL>59]:
-ItemDisplay[rvs CLVL>79]:
-ItemDisplay[(hp5 OR mp5) FILTLVL=5]:
+
 //Utility
 ItemDisplay[tsc OR isc OR wms OR yps OR vps OR gpm OR opm OR opl OR ops OR gps OR gpl OR key]:
 ItemDisplay[NMAG (aqv OR cqv)]:
@@ -1923,7 +1923,7 @@ ItemDisplay[(imma OR scou) FILTLVL>2]:
 //Unique
 ItemDisplay[UNI !ID NORM (ARMOR OR WEAPON) FILTLVL>1]:
 ItemDisplay[UNI !ID EXC (ARMOR OR WEAPON) FILTLVL>2]:
-ItemDisplay[UNI !ID FILTLVL>3]:
+ItemDisplay[UNI !ID (ARMOR OR WEAPON) FILTLVL>3]:
 //Set
 ItemDisplay[SET !ID NORM (ARMOR OR WEAPON) FILTLVL>1]:
 ItemDisplay[SET !ID EXC (ARMOR OR WEAPON) FILTLVL>2]:
@@ -1934,7 +1934,7 @@ ItemDisplay[RARE !ID FILTLVL>2]:
 //Normal
 ItemDisplay[NMAG !RW (ARMOR OR WEAPON) SOCK=1]:
 ItemDisplay[NMAG !RW (ARMOR OR WEAPON) SOCK=0 FILTLVL>1]:
-ItemDisplay[NMAG !RW FILTLVL>2]:
+ItemDisplay[NMAG !RW (ARMOR OR WEAPON) FILTLVL>2]:
 //Vendor Color Fix
 ItemDisplay[ID MAG]:%NAME%{%NAME%}%BLUE%
 ItemDisplay[ID RARE]:%NAME%{%NAME%}%YELLOW%
