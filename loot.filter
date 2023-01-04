@@ -1498,7 +1498,6 @@ ItemDisplay[UNI jew STAT330>0]:%NAME% %YELLOW%Lightning %GOLD%Facet
 ItemDisplay[UNI jew STAT331>0]:%NAME% %BLUE%Cold %GOLD%Facet
 ItemDisplay[UNI jew STAT332>0]:%NAME% %GREEN%Poison %GOLD%Facet
 \~~~
-\~~~
 /~~~Misc Items~~~
 //Gold
 ItemDisplay[GOLD<100]:
