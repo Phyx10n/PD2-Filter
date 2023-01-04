@@ -1497,6 +1497,7 @@ ItemDisplay[UNI jew STAT329>0]:%NAME% %RED%Fire %GOLD%Facet
 ItemDisplay[UNI jew STAT330>0]:%NAME% %YELLOW%Lightning %GOLD%Facet
 ItemDisplay[UNI jew STAT331>0]:%NAME% %BLUE%Cold %GOLD%Facet
 ItemDisplay[UNI jew STAT332>0]:%NAME% %GREEN%Poison %GOLD%Facet
+//Color Fix
 \~~~
 /~~~Misc Items~~~
 //Gold
@@ -1525,7 +1526,7 @@ ItemDisplay[mp4]:%BLUE%M%WHITE%4%CONTINUE%
 ItemDisplay[hp5]:%RED%H%WHITE%5%CONTINUE%
 ItemDisplay[mp5]:%BLUE%M%WHITE%5%CONTINUE%
 ItemDisplay[rvs]:%PURPLE%R%WHITE%1%CONTINUE%
-ItemDisplay[rvl]:%PURPLE%* R%WHITE%2 %PURPLE%*%CONTINUE
+ItemDisplay[rvl]:%PURPLE%* R%WHITE%2 %PURPLE%*%CONTINUE%
 //Gems
 ItemDisplay[GEMTYPE=1]:%TAN%(%PURPLE%O{%NAME%}%CONTINUE%
 ItemDisplay[GEMTYPE=2]:%TAN%(%WHITE%O{%NAME%}%CONTINUE%
@@ -1939,4 +1940,10 @@ ItemDisplay[RARE !ID FILTLVL>2]:
 ItemDisplay[NMAG !RW (ARMOR OR WEAPON) SOCK=1]:
 ItemDisplay[NMAG !RW (ARMOR OR WEAPON) SOCK=0 FILTLVL>1]:
 ItemDisplay[NMAG !RW (ARMOR OR WEAPON) FILTLVL>2]:
+//Vendor Color Fix
+ItemDisplay[ID MAG]:%NAME%{%NAME%}%BLUE%
+ItemDisplay[ID RARE]:%NAME%{%NAME%}%YELLOW%
+ItemDisplay[ID SET]:%NAME%{%NAME%}%GREEN%
+ItemDisplay[ID UNI]:%NAME%{%NAME%}%GOLD%
+ItemDisplay[ID CRAFT]:%NAME%{%NAME%}%ORANGE%
 \~~~
