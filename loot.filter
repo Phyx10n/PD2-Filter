@@ -537,8 +537,8 @@ ItemDisplay[t41]:Cathedral of Light%CONTINUE%
 ItemDisplay[t42]:Plains of Torment%CONTINUE%
 ItemDisplay[t43]:Sanctuary of Sin%CONTINUE%
 //Rarity Colors
-ItemDisplay[NMAG !ETH]:%WHITE%%NAME%%CONTINUE%
-ItemDisplay[NMAG ETH]:%GRAY%%NAME%%CONTINUE%
+ItemDisplay[NMAG (ARMOR OR WEAPON) !ETH]:%WHITE%%NAME%%CONTINUE%
+ItemDisplay[NMAG (ARMOR OR WEAPON) ETH]:%GRAY%%NAME%%CONTINUE%
 ItemDisplay[MAG]:%BLUE%%NAME%%CONTINUE%
 ItemDisplay[RARE]:%YELLOW%%NAME%%CONTINUE%
 ItemDisplay[SET]:%GREEN%%NAME%%CONTINUE%
@@ -609,54 +609,54 @@ ItemDisplay[t41]:%NAME%{%GREEN%180% %WHITE%* %ORANGE%180% %WHITE%* %GOLD%180%%NL
 ItemDisplay[t42]:%NAME%{%GREEN%180% %WHITE%* %ORANGE%180% %WHITE%* %GOLD%180%%NL%%RED%180% %WHITE%* %YELLOW%180% %WHITE%* %BLUE%180%%NL%%TAN%Enemy Resistances%WHITE%:%NAME%}%CONTINUE%
 ItemDisplay[t43]:%NAME%{%GREEN%180% %WHITE%* %ORANGE%180% %WHITE%* %GOLD%180%%NL%%RED%180% %WHITE%* %YELLOW%180% %WHITE%* %BLUE%180%%NL%%TAN%Enemy Resistances%WHITE%:%NAME%}%CONTINUE%
 //Rune Descriptions
-ItemDisplay[r01s]:%NAME%{%NL%%WHITE%Shield: +15 Defense, +1 to Light Radius%NL%Armor: +15 Defense, +1 to Light Radius%NL%Weapon: +50 to Attack Rating, +1 to Light Radius%NL%}%CONTINUE%
-ItemDisplay[r02s]:%NAME%{%NL%%WHITE%Shield: 7% Increased Chance of Blocking%NL%Armor: 15% Slower Stamina Drain%NL%Weapon: +75% Damage to Undead, +50 to Attack Rating against Undead%NL%}%CONTINUE%
-ItemDisplay[r03s]:%NAME%{%NL%%WHITE%Shield: +2 to Mana after each Kill%NL%Armor: +2 to Mana after each Kill%NL%Weapon: +2 to Mana after each Kill%NL%}%CONTINUE%
-ItemDisplay[r04s]:%NAME%{%NL%%WHITE%Shield: +30 Defense vs. Missile%NL%Armor: +30 Defense vs. Missile%NL%Weapon: Knockback%NL%}%CONTINUE%
-ItemDisplay[r05s]:%NAME%{%NL%%WHITE%Shield: Regenerate Mana 15%%NL%Armor: Regenerate Mana 15%%NL%Weapon: -25% Target Defense%NL%}%CONTINUE%
-ItemDisplay[r06s]:%NAME%{%NL%%WHITE%Shield: 15% Damage Taken Gained as Mana when Hit%NL%Armor: 15% Damage Taken Gained as Mana when Hit%NL%Weapon: +9 to Maximum Damage%NL%}%CONTINUE%
-ItemDisplay[r07s]:%NAME%{%NL%%WHITE%Shield: Poison Resist +35%%NL%Armor: Poison Resist +30%%NL%Weapon: +75 Poison Damage over 5 Seconds%NL%}%CONTINUE%
-ItemDisplay[r08s]:%NAME%{%NL%%WHITE%Shield: Fire Resist +35%%NL%Armor: Fire Resist +30%%NL%Weapon: Adds 5-30 Fire Damage%NL%}%CONTINUE%
-ItemDisplay[r09s]:%NAME%{%NL%%WHITE%Shield: Lightning Resist +35%%NL%Armor: Lightning Resist +30%%NL%Weapon: Adds 1-50 Lightning Damage%NL%}%CONTINUE%
-ItemDisplay[r10s]:%NAME%{%NL%%WHITE%Shield: Cold Resist +35%%NL%Armor: Cold Resist +30%%NL%Weapon: Adds 3-14 Cold Damage%NL%}%CONTINUE%
-ItemDisplay[r11s]:%NAME%{%NL%%WHITE%Shield: Attacker Takes Damage of 14%NL%Armor: Attacker Takes Damage of 14%NL%Weapon: 7% Life Stolen per Hit%NL%}%CONTINUE%
-ItemDisplay[r12s]:%NAME%{%NL%%WHITE%Shield: Physical Damage Taken Reduced by 7%NL%Armor: Physical Damage Taken Reduced by 7%NL%Weapon: +9 to Minimum Damage%NL%}%CONTINUE%
-ItemDisplay[r13s]:%NAME%{%NL%%WHITE%Shield: +20% Faster Block Rate%NL%Armor: +20% Faster Hit Recovery%NL%Weapon: +20% Increased Attack Speed%NL%}%CONTINUE%
-ItemDisplay[r14s]:%NAME%{%NL%%WHITE%Shield: Replenish Life +10%NL%Armor: Replenish Life +10%NL%Weapon: 20% Enhanced Damage%NL%}%CONTINUE%
-ItemDisplay[r15s]:%NAME%{%NL%%WHITE%Shield: Requirements -15%%NL%Armor: Requirements -15%%NL%Weapon: Requirements -20%%NL%}%CONTINUE%
-ItemDisplay[r16s]:%NAME%{%NL%%WHITE%Shield: +10 to Vitality%NL%Armor: +10 to Vitality%NL%Weapon: +10 to Vitality%NL%}%CONTINUE%
-ItemDisplay[r17s]:%NAME%{%NL%%WHITE%Shield: +10 to Energy%NL%Armor: +10 to Energy%NL%Weapon: +10 to Energy%NL%}%CONTINUE%
-ItemDisplay[r18s]:%NAME%{%NL%%WHITE%Shield: +10 to Dexterity%NL%Armor: +10 to Dexterity%NL%Weapon: +10 to Dexterity%NL%}%CONTINUE%
-ItemDisplay[r19s]:%NAME%{%NL%%WHITE%Shield: +10 to Strength%NL%Armor: +10 to Strength%NL%Weapon: +10 to Strength%NL%}%CONTINUE%
-ItemDisplay[r20s]:%NAME%{%NL%%WHITE%Shield: 50% Extra Gold From Monsters%NL%Armor: 50% Extra Gold From Monsters%NL%Weapon: 75% Extra Gold From Monsters%NL%}%CONTINUE%
-ItemDisplay[r21s]:%NAME%{%NL%%WHITE%Shield: +30% Enhanced Defense%NL%Armor: +30% Enhanced Defense%NL%Weapon: +75% Damage to Demons, +100 to Attack Rating against Demons%NL%}%CONTINUE%
-ItemDisplay[r22s]:%NAME%{%NL%%WHITE%Shield: All Resistances +22%NL%Armor: All Resistances +15%NL%Weapon: 25% Chance of Open Wounds%NL%}%CONTINUE%
-ItemDisplay[r23s]:%NAME%{%NL%%WHITE%Shield: Magic Damage Taken Reduced by 7%NL%Armor: Magic Damage Taken Reduced by 7%NL%Weapon: Prevent Monster Heal%NL%}%CONTINUE%
-ItemDisplay[r24s]:%NAME%{%NL%%WHITE%Shield: 25% Better Chance of Getting Magic Items%NL%Armor: 25% Better Chance of Getting Magic Items%NL%Weapon: 30% Better Chance of Getting Magic Items%NL%}%CONTINUE%
-ItemDisplay[r25s]:%NAME%{%NL%%WHITE%Shield: +4% to Maximum Poison Resist%NL%Armor: +4% to Maximum Poison Resist%NL%Weapon: 20% Bonus to Attack Rating%NL%}%CONTINUE%
-ItemDisplay[r26s]:%NAME%{%NL%%WHITE%Shield: +4% to Maximum Fire Resist%NL%Armor: +4% to Maximum Fire Resist%NL%Weapon: 7% Mana Stolen per Hit%NL%}%CONTINUE%
-ItemDisplay[r27s]:%NAME%{%NL%%WHITE%Shield: +4% to Maximum Cold Resist%NL%Armor: +4% to Maximum Cold Resist%NL%Weapon: +50% Enhanced Damage%NL%}%CONTINUE%
-ItemDisplay[r28s]:%NAME%{%NL%%WHITE%Shield: +4% to Maximum Lightning Resist%NL%Armor: +4% to Maximum Lightning Resist%NL%Weapon: 20% Deadly Strike%NL%}%CONTINUE%
-ItemDisplay[r29s]:%NAME%{%NL%%WHITE%Shield: +50 to Mana%NL%Armor: Increase Maximum Mana 5%%NL%Weapon: +4 Life after each Kill%NL%}%CONTINUE%
-ItemDisplay[r30s]:%NAME%{%NL%%WHITE%Shield: Physical Damage Taken Reduced by 5%%NL%Armor: Physical Damage Taken Reduced by 5%%NL%Weapon: 20% Chance of Crushing Blow%NL%}%CONTINUE%
-ItemDisplay[r31s]:%NAME%{%NL%%WHITE%Shield: +50 to Life%NL%Armor: Increase Maximum Life 5%%NL%Weapon: Ignore Target's Defense%NL%}%CONTINUE%
-ItemDisplay[r32s]:%NAME%{%NL%%WHITE%Shield: Cannot Be Frozen%NL%Armor: Cannot Be Frozen%NL%Weapon: Freezes Target +3%NL%}%CONTINUE%
-ItemDisplay[r33s]:%NAME%{%NL%%WHITE%Shield: Indestructible%NL%Armor: Indestructible%NL%Weapon: Indestructible%NL%}%CONTINUE%
+ItemDisplay[r01s]:%NAME%{%WHITE%Shield: +15 Defense, +1 to Light Radius%NL%Armor: +15 Defense, +1 to Light Radius%NL%Weapon: +50 to Attack Rating, +1 to Light Radius%NL%%TAN%Rune number%WHITE%: %ORANGE%%RUNENUM%}%CONTINUE%
+ItemDisplay[r02s]:%NAME%{%WHITE%Shield: 7% Increased Chance of Blocking%NL%Armor: 15% Slower Stamina Drain%NL%Weapon: +75% Damage to Undead, +50 to Attack Rating against Undead%NL%%TAN%Rune number%WHITE%: %ORANGE%%RUNENUM%}%CONTINUE%
+ItemDisplay[r03s]:%NAME%{%WHITE%Shield: +2 to Mana after each Kill%NL%Armor: +2 to Mana after each Kill%NL%Weapon: +2 to Mana after each Kill%NL%%TAN%Rune number%WHITE%: %ORANGE%%RUNENUM%}%CONTINUE%
+ItemDisplay[r04s]:%NAME%{%WHITE%Shield: +30 Defense vs. Missile%NL%Armor: +30 Defense vs. Missile%NL%Weapon: Knockback%NL%%TAN%Rune number%WHITE%: %ORANGE%%RUNENUM%}%CONTINUE%
+ItemDisplay[r05s]:%NAME%{%WHITE%Shield: Regenerate Mana 15%%NL%Armor: Regenerate Mana 15%%NL%Weapon: -25% Target Defense%NL%%TAN%Rune number%WHITE%: %ORANGE%%RUNENUM%}%CONTINUE%
+ItemDisplay[r06s]:%NAME%{%WHITE%Shield: 15% Damage Taken Gained as Mana when Hit%NL%Armor: 15% Damage Taken Gained as Mana when Hit%NL%Weapon: +9 to Maximum Damage%NL%%TAN%Rune number%WHITE%: %ORANGE%%RUNENUM%}%CONTINUE%
+ItemDisplay[r07s]:%NAME%{%WHITE%Shield: Poison Resist +35%%NL%Armor: Poison Resist +30%%NL%Weapon: +75 Poison Damage over 5 Seconds%NL%%TAN%Rune number%WHITE%: %ORANGE%%RUNENUM%}%CONTINUE%
+ItemDisplay[r08s]:%NAME%{%WHITE%Shield: Fire Resist +35%%NL%Armor: Fire Resist +30%%NL%Weapon: Adds 5-30 Fire Damage%NL%%TAN%Rune number%WHITE%: %ORANGE%%RUNENUM%}%CONTINUE%
+ItemDisplay[r09s]:%NAME%{%WHITE%Shield: Lightning Resist +35%%NL%Armor: Lightning Resist +30%%NL%Weapon: Adds 1-50 Lightning Damage%NL%%TAN%Rune number%WHITE%: %ORANGE%%RUNENUM%}%CONTINUE%
+ItemDisplay[r10s]:%NAME%{%WHITE%Shield: Cold Resist +35%%NL%Armor: Cold Resist +30%%NL%Weapon: Adds 3-14 Cold Damage%NL%%TAN%Rune number%WHITE%: %ORANGE%%RUNENUM%}%CONTINUE%
+ItemDisplay[r11s]:%NAME%{%WHITE%Shield: Attacker Takes Damage of 14%NL%Armor: Attacker Takes Damage of 14%NL%Weapon: 7% Life Stolen per Hit%NL%%TAN%Rune number%WHITE%: %ORANGE%%RUNENUM%}%CONTINUE%
+ItemDisplay[r12s]:%NAME%{%WHITE%Shield: Physical Damage Taken Reduced by 7%NL%Armor: Physical Damage Taken Reduced by 7%NL%Weapon: +9 to Minimum Damage%NL%%TAN%Rune number%WHITE%: %ORANGE%%RUNENUM%}%CONTINUE%
+ItemDisplay[r13s]:%NAME%{%WHITE%Shield: +20% Faster Block Rate%NL%Armor: +20% Faster Hit Recovery%NL%Weapon: +20% Increased Attack Speed%NL%%TAN%Rune number%WHITE%: %ORANGE%%RUNENUM%}%CONTINUE%
+ItemDisplay[r14s]:%NAME%{%WHITE%Shield: Replenish Life +10%NL%Armor: Replenish Life +10%NL%Weapon: 20% Enhanced Damage%NL%%TAN%Rune number%WHITE%: %ORANGE%%RUNENUM%}%CONTINUE%
+ItemDisplay[r15s]:%NAME%{%WHITE%Shield: Requirements -15%%NL%Armor: Requirements -15%%NL%Weapon: Requirements -20%%NL%%TAN%Rune number%WHITE%: %ORANGE%%RUNENUM%}%CONTINUE%
+ItemDisplay[r16s]:%NAME%{%WHITE%Shield: +10 to Vitality%NL%Armor: +10 to Vitality%NL%Weapon: +10 to Vitality%NL%%TAN%Rune number%WHITE%: %ORANGE%%RUNENUM%}%CONTINUE%
+ItemDisplay[r17s]:%NAME%{%WHITE%Shield: +10 to Energy%NL%Armor: +10 to Energy%NL%Weapon: +10 to Energy%NL%%TAN%Rune number%WHITE%: %ORANGE%%RUNENUM%}%CONTINUE%
+ItemDisplay[r18s]:%NAME%{%WHITE%Shield: +10 to Dexterity%NL%Armor: +10 to Dexterity%NL%Weapon: +10 to Dexterity%NL%%TAN%Rune number%WHITE%: %ORANGE%%RUNENUM%}%CONTINUE%
+ItemDisplay[r19s]:%NAME%{%WHITE%Shield: +10 to Strength%NL%Armor: +10 to Strength%NL%Weapon: +10 to Strength%NL%%TAN%Rune number%WHITE%: %ORANGE%%RUNENUM%}%CONTINUE%
+ItemDisplay[r20s]:%NAME%{%WHITE%Shield: 50% Extra Gold From Monsters%NL%Armor: 50% Extra Gold From Monsters%NL%Weapon: 75% Extra Gold From Monsters%NL%%TAN%Rune number%WHITE%: %ORANGE%%RUNENUM%}%CONTINUE%
+ItemDisplay[r21s]:%NAME%{%WHITE%Shield: +30% Enhanced Defense%NL%Armor: +30% Enhanced Defense%NL%Weapon: +75% Damage to Demons, +100 to Attack Rating against Demons%NL%%TAN%Rune number%WHITE%: %ORANGE%%RUNENUM%}%CONTINUE%
+ItemDisplay[r22s]:%NAME%{%WHITE%Shield: All Resistances +22%NL%Armor: All Resistances +15%NL%Weapon: 25% Chance of Open Wounds%NL%%TAN%Rune number%WHITE%: %ORANGE%%RUNENUM%}%CONTINUE%
+ItemDisplay[r23s]:%NAME%{%WHITE%Shield: Magic Damage Taken Reduced by 7%NL%Armor: Magic Damage Taken Reduced by 7%NL%Weapon: Prevent Monster Heal%NL%%TAN%Rune number%WHITE%: %ORANGE%%RUNENUM%}%CONTINUE%
+ItemDisplay[r24s]:%NAME%{%WHITE%Shield: 25% Better Chance of Getting Magic Items%NL%Armor: 25% Better Chance of Getting Magic Items%NL%Weapon: 30% Better Chance of Getting Magic Items%NL%%TAN%Rune number%WHITE%: %ORANGE%%RUNENUM%}%CONTINUE%
+ItemDisplay[r25s]:%NAME%{%WHITE%Shield: +4% to Maximum Poison Resist%NL%Armor: +4% to Maximum Poison Resist%NL%Weapon: 20% Bonus to Attack Rating%NL%%TAN%Rune number%WHITE%: %ORANGE%%RUNENUM%}%CONTINUE%
+ItemDisplay[r26s]:%NAME%{%WHITE%Shield: +4% to Maximum Fire Resist%NL%Armor: +4% to Maximum Fire Resist%NL%Weapon: 7% Mana Stolen per Hit%NL%%TAN%Rune number%WHITE%: %ORANGE%%RUNENUM%}%CONTINUE%
+ItemDisplay[r27s]:%NAME%{%WHITE%Shield: +4% to Maximum Cold Resist%NL%Armor: +4% to Maximum Cold Resist%NL%Weapon: +50% Enhanced Damage%NL%%TAN%Rune number%WHITE%: %ORANGE%%RUNENUM%}%CONTINUE%
+ItemDisplay[r28s]:%NAME%{%WHITE%Shield: +4% to Maximum Lightning Resist%NL%Armor: +4% to Maximum Lightning Resist%NL%Weapon: 20% Deadly Strike%NL%%TAN%Rune number%WHITE%: %ORANGE%%RUNENUM%}%CONTINUE%
+ItemDisplay[r29s]:%NAME%{%WHITE%Shield: +50 to Mana%NL%Armor: Increase Maximum Mana 5%%NL%Weapon: +4 Life after each Kill%NL%%TAN%Rune number%WHITE%: %ORANGE%%RUNENUM%}%CONTINUE%
+ItemDisplay[r30s]:%NAME%{%WHITE%Shield: Physical Damage Taken Reduced by 5%%NL%Armor: Physical Damage Taken Reduced by 5%%NL%Weapon: 20% Chance of Crushing Blow%NL%%TAN%Rune number%WHITE%: %ORANGE%%RUNENUM%}%CONTINUE%
+ItemDisplay[r31s]:%NAME%{%WHITE%Shield: +50 to Life%NL%Armor: Increase Maximum Life 5%%NL%Weapon: Ignore Target's Defense%NL%%TAN%Rune number%WHITE%: %ORANGE%%RUNENUM%}%CONTINUE%
+ItemDisplay[r32s]:%NAME%{%WHITE%Shield: Cannot Be Frozen%NL%Armor: Cannot Be Frozen%NL%Weapon: Freezes Target +3%NL%%TAN%Rune number%WHITE%: %ORANGE%%RUNENUM%}%CONTINUE%
+ItemDisplay[r33s]:%NAME%{%WHITE%Shield: Indestructible%NL%Armor: Indestructible%NL%Weapon: Indestructible%NL%%TAN%Rune number%WHITE%: %ORANGE%%RUNENUM%}%CONTINUE%
 //Gem Descriptions
-ItemDisplay[glbs]:%NAME%{%NL%%WHITE%Shield: Cold Resist +28%%NL%Armor: +31 to Mana%NL%Weapon: Adds 6-10 Cold Damage%NL%}%CONTINUE%
-ItemDisplay[gpbs]:%NAME%{%NL%%WHITE%Shield: Cold Resist +40%%NL%Armor: +38 to Mana%NL%Weapon: Adds 10-14 Cold Damage%NL%}%CONTINUE%
-ItemDisplay[glgs]:%NAME%{%NL%%WHITE%Shield: Poison Resist +28%%NL%Armor: +8 to Dexterity%NL%Weapon: +60 Poison Damage over 6 Seconds%NL%}%CONTINUE%
-ItemDisplay[gpgs]:%NAME%{%NL%%WHITE%Shield: Poison Resist +40%%NL%Armor: +10 to Dexterity%NL%Weapon: +100 Poison Damage over 7 Seconds%NL%}%CONTINUE%
-ItemDisplay[glys]:%NAME%{%NL%%WHITE%Shield: Lightning Resist +28%%NL%Armor: 20% Better Chance of Getting Magic Items%NL%Weapon: Adds 1-30 Lightning Damage%NL%}%CONTINUE%
-ItemDisplay[gpys]:%NAME%{%NL%%WHITE%Shield: Lightning Resist +40%%NL%Armor: 24% Better Chance of Getting Magic Items%NL%Weapon: Adds 1-40 Lightning Damage%NL%}%CONTINUE%
-ItemDisplay[glrs]:%NAME%{%NL%%WHITE%Shield: Fire Resist +28%%NL%Armor: +31 to Life%NL%Weapon: Adds 10-16 Fire Damage%NL%}%CONTINUE%
-ItemDisplay[gprs]:%NAME%{%NL%%WHITE%Shield: Fire Resist +40%%NL%Armor: +38 to Life%NL%Weapon: Adds 15-20 Fire Damage%NL%}%CONTINUE%
-ItemDisplay[gzvs]:%NAME%{%NL%%WHITE%Shield: +24 Defense%NL%Armor: +8 to Strength%NL%Weapon: +100 to Attack Rating%NL%}%CONTINUE%
-ItemDisplay[gpvs]:%NAME%{%NL%%WHITE%Shield: +30 Defense%NL%Armor: +10 to Strength%NL%Weapon: +150 to Attack Rating%NL%}%CONTINUE%
-ItemDisplay[glws]:%NAME%{%NL%%WHITE%Shield: All Resistances +14%NL%Armor: +80 to Attack Rating%NL%Weapon: +54% Damage to Undead%NL%}%CONTINUE%
-ItemDisplay[gpws]:%NAME%{%NL%%WHITE%Shield: All Resistances +19%NL%Armor: +100 to Attack Rating%NL%Weapon: +68% Damage to Undead%NL%}%CONTINUE%
-ItemDisplay[skls]:%NAME%{%NL%%WHITE%Shield: Attacker Takes Damage of 16%NL%Armor: Regenerate Mana 12% Replenish Life +4%NL%Weapon: 3% Life Stolen per Hit, 3% Mana Stolen per Hit%NL%}%CONTINUE%
-ItemDisplay[skzs]:%NAME%{%NL%%WHITE%Shield: Attacker Takes Damage of 20%NL%Armor: Regenerate Mana 19%, Replenish Life +5%NL%Weapon: 4% Life Stolen per Hit, 3% Mana Stolen per Hit%NL%}%CONTINUE%
+ItemDisplay[glbs]:%NAME%{%WHITE%Shield: Cold Resist +28%%NL%Armor: +31 to Mana%NL%Weapon: Adds 6-10 Cold Damage}%CONTINUE%
+ItemDisplay[gpbs]:%NAME%{%WHITE%Shield: Cold Resist +40%%NL%Armor: +38 to Mana%NL%Weapon: Adds 10-14 Cold Damage}%CONTINUE%
+ItemDisplay[glgs]:%NAME%{%WHITE%Shield: Poison Resist +28%%NL%Armor: +8 to Dexterity%NL%Weapon: +60 Poison Damage over 6 Seconds}%CONTINUE%
+ItemDisplay[gpgs]:%NAME%{%WHITE%Shield: Poison Resist +40%%NL%Armor: +10 to Dexterity%NL%Weapon: +100 Poison Damage over 7 Seconds}%CONTINUE%
+ItemDisplay[glys]:%NAME%{%WHITE%Shield: Lightning Resist +28%%NL%Armor: 20% Better Chance of Getting Magic Items%NL%Weapon: Adds 1-30 Lightning Damage}%CONTINUE%
+ItemDisplay[gpys]:%NAME%{%WHITE%Shield: Lightning Resist +40%%NL%Armor: 24% Better Chance of Getting Magic Items%NL%Weapon: Adds 1-40 Lightning Damage}%CONTINUE%
+ItemDisplay[glrs]:%NAME%{%WHITE%Shield: Fire Resist +28%%NL%Armor: +31 to Life%NL%Weapon: Adds 10-16 Fire Damage}%CONTINUE%
+ItemDisplay[gprs]:%NAME%{%WHITE%Shield: Fire Resist +40%%NL%Armor: +38 to Life%NL%Weapon: Adds 15-20 Fire Damage}%CONTINUE%
+ItemDisplay[gzvs]:%NAME%{%WHITE%Shield: +24 Defense%NL%Armor: +8 to Strength%NL%Weapon: +100 to Attack Rating}%CONTINUE%
+ItemDisplay[gpvs]:%NAME%{%WHITE%Shield: +30 Defense%NL%Armor: +10 to Strength%NL%Weapon: +150 to Attack Rating}%CONTINUE%
+ItemDisplay[glws]:%NAME%{%WHITE%Shield: All Resistances +14%NL%Armor: +80 to Attack Rating%NL%Weapon: +54% Damage to Undead}%CONTINUE%
+ItemDisplay[gpws]:%NAME%{%WHITE%Shield: All Resistances +19%NL%Armor: +100 to Attack Rating%NL%Weapon: +68% Damage to Undead}%CONTINUE%
+ItemDisplay[skls]:%NAME%{%WHITE%Shield: Attacker Takes Damage of 16%NL%Armor: Regenerate Mana 12% Replenish Life +4%NL%Weapon: 3% Life Stolen per Hit, 3% Mana Stolen per Hit}%CONTINUE%
+ItemDisplay[skzs]:%NAME%{%WHITE%Shield: Attacker Takes Damage of 20%NL%Armor: Regenerate Mana 19%, Replenish Life +5%NL%Weapon: 4% Life Stolen per Hit, 3% Mana Stolen per Hit}%CONTINUE%
 \~~~
 /~~~Modifiers~~~
 //Prefixes
@@ -1545,7 +1545,7 @@ ItemDisplay[GEMTYPE>0 QTY>1]:%NAME%{%NAME%} %TAN%x%WHITE% %QTY%%CONTINUE%%WHITE%
 ItemDisplay[GEMTYPE>0 (GEM=4 OR gzv OR glw OR glg OR glr OR glb OR gly OR skl) FILTLVL<4]:%RED%* %NAME%{%NAME%} %RED%*%PX-20%%WHITE%
 ItemDisplay[GEMTYPE>0 (GEM=5 OR gpv OR gpw OR gpg OR gpr OR gpb OR gpy OR skz)]:%RED%* %NAME%{%NAME%} %RED%*%DOT-20%%WHITE%
 //Runes
-ItemDisplay[RUNE>0]:%NAME%{%NAME%%TAN%Rune number%WHITE%: %ORANGE%%RUNENUM%}%CONTINUE%
+ItemDisplay[RUNE>0]:%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[RUNE>0 QTY>1]:%NAME% %TAN%x%WHITE% %QTY%{%NAME%}%CONTINUE%
 ItemDisplay[RUNE=1 OR RUNE=2 OR RUNE=4 OR RUNE=5 OR RUNE=6 OR RUNE=7 OR RUNE=9 FILTLVL<4]:%RED%* %NAME%{%NAME%} %RED%*%PX-62%%WHITE%
 ItemDisplay[(RUNE=3 OR RUNE=8 ) OR (RUNE>9 AND RUNE<16)]:%RED%* %NAME% %RED%*%DOT-62%%WHITE%{%NAME%}
