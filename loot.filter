@@ -1857,6 +1857,9 @@ ItemDisplay[NMAG !INF !RW !ETH SOCK>2 SWORD FILTLVL<3]:%NAME%{%NAME%}
 ItemDisplay[NMAG !INF !RW !ETH SOCK>1 SWORD FILTLVL<2]:%NAME%{%NAME%}
 \~~~
 /~~~Hide~~~
+//Utility
+ItemDisplay[(tsc OR isc OR wms OR yps OR vps OR gpm OR opm OR opl OR ops OR gps OR gpl OR key)]:
+ItemDisplay[NMAG (aqv OR cqv)]:
 //Unique
 ItemDisplay[UNI !ID NORM FILTLVL>1]:
 ItemDisplay[UNI !ID EXC FILTLVL>2]:
