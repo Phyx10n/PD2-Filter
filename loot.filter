@@ -1099,147 +1099,142 @@ ItemDisplay[bks OR bkd OR hdm OR tr1 OR ass OR msf OR vip OR hst OR j34 OR g34 O
 \~~~
 /~~~Unique Items~~~
 //DClone/Rathma
-ItemDisplay[UNI !ID (uhl OR uth OR rar OR rbe OR utb OR 7bs OR 7qr OR ram)]:%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%PURPLE%* %NAME% %PURPLE%*%BLUE%*%GREEN%*%YELLOW%*%ORANGE%*%RED%*%BORDER-D3%
+ItemDisplay[UNI !ID (uhl OR uth OR utb OR 7bs OR 7qr OR rar OR rbe OR ram)]:%RED%·%ORANGE%·%YELLOW%·%GREEN%·%BLUE%·%PURPLE%· %NAME% %PURPLE%·%BLUE%·%GREEN%·%YELLOW%·%ORANGE%·%RED%·%BORDER-D3%
 //Misc
-ItemDisplay[UNI !ID cm1]:%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%* %NAME% %BLUE%*%GREEN%*%YELLOW%*%ORANGE%*%RED%*%BORDER-D3%
-ItemDisplay[UNI !ID (amu OR rin OR jew OR cm2)]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-D3%
-ItemDisplay[UNI !ID cm3]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-D3%
+ItemDisplay[UNI !ID cm1]:%RED%·%ORANGE%·%YELLOW%·%GREEN%·%BLUE%· %NAME% %BLUE%·%GREEN%·%YELLOW%·%ORANGE%·%RED%·%BORDER-D3%
+ItemDisplay[UNI !ID (amu OR rin OR jew OR cm2)]:%RED%·%ORANGE%·%YELLOW%· %NAME% %YELLOW%·%ORANGE%·%RED%·%MAP-D3%
+ItemDisplay[UNI !ID cm3]:%RED%·%ORANGE%· %NAME% %ORANGE%·%RED%·%DOT-D3%
 //Helm
-ItemDisplay[UNI !ID !ETH (uap OR uhm OR urn OR uh9 OR ci2 OR ci3)]:%RED%*%ORANGE%*%YELLOW%*%GREEN%* %NAME% %GREEN%*%YELLOW%*%ORANGE%*%RED%*%MAP-D3%
-ItemDisplay[UNI !ID !ETH (xhm OR xh9 OR ulm OR usk)]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-D3%
-ItemDisplay[UNI !ID !ETH xsk]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-D3%
-ItemDisplay[UNI !ID !ETH (cap OR skp OR crn OR xap OR xkp OR xlm OR xhl OR xrn)]:%RED%* %NAME% %RED%*%DOT-D3%
-ItemDisplay[UNI !ID ETH usk]:%RED%*%ORANGE%*%YELLOW%*%GREEN%* %NAME% %GREEN%*%YELLOW%*%ORANGE%*%RED%*%MAP-D3%
-ItemDisplay[UNI !ID ETH (xh9 OR uhm)]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-D3%
-ItemDisplay[UNI !ID ETH (xhm OR xsk OR uap OR ulm OR uh9 OR ci2 OR ci3)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-D3%
-ItemDisplay[UNI !ID ETH (cap OR skp OR crn OR xap OR xkp OR xlm OR xhl OR xrn)]:%RED%* %NAME% %RED%*%DOT-D3%
+ItemDisplay[UNI !ID !ETH (urn OR ci3)]:%RED%·%ORANGE%·%YELLOW%·%GREEN%·%BLUE%· %NAME% %BLUE%·%GREEN%·%YELLOW%·%ORANGE%·%RED%·%BORDER-D3%
+ItemDisplay[UNI !ID !ETH (uap OR uhm OR ci2)]:%RED%·%ORANGE%·%YELLOW%·%GREEN%· %NAME% %GREEN%·%YELLOW%·%ORANGE%·%RED%·%MAP-D3%
+ItemDisplay[UNI !ID !ETH (ulm OR usk OR uh9)]:%RED%·%ORANGE%·%YELLOW%· %NAME% %YELLOW%·%ORANGE%·%RED%·%MAP-D3%
+ItemDisplay[UNI !ID !ETH (xhm OR xh9)]:%RED%·%ORANGE%· %NAME% %ORANGE%·%RED%·%DOT-D3%
+ItemDisplay[UNI !ID !ETH xsk]:%RED%· %NAME% %RED%·%DOT-D3%
+ItemDisplay[UNI !ID ETH usk]:%RED%·%ORANGE%·%YELLOW%·%GREEN%· %NAME% %GREEN%·%YELLOW%·%ORANGE%·%RED%·%MAP-D3%
+ItemDisplay[UNI !ID ETH (xh9 OR ci3)]:%RED%·%ORANGE%·%YELLOW%· %NAME% %YELLOW%·%ORANGE%·%RED%·%MAP-D3%
+ItemDisplay[UNI !ID ETH (xhm OR uap OR ulm OR uhm OR uh9 OR ci2)]:%RED%·%ORANGE%· %NAME% %ORANGE%·%RED%·%DOT-D3%
+ItemDisplay[UNI !ID ETH xsk]:%RED%· %NAME% %RED%·%DOT-D3%
 //Chest
-ItemDisplay[UNI !ID !ETH uar]:%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%* %NAME% %BLUE%*%GREEN%*%YELLOW%*%ORANGE%*%RED%*%BORDER-D3%
-ItemDisplay[UNI !ID !ETH (xtp OR uui OR upl OR uld)]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-D3%
-ItemDisplay[UNI !ID !ETH (brs OR spl OR fld OR ltp OR xea OR xng OR xhn OR xpl OR xlt OR xld OR xth OR xul OR xar OR utu OR uul OR utp)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-D3%
-ItemDisplay[UNI !ID !ETH (hla OR rng OR chn OR gth OR aar OR xui OR xcl OR xrs)]:%RED%* %NAME% %RED%*%DOT-D3%
-ItemDisplay[UNI !ID ETH (uar OR utp)]:%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%* %NAME% %BLUE%*%GREEN%*%YELLOW%*%ORANGE%*%RED%*%BORDER-D3%
-ItemDisplay[UNI !ID ETH uul]:%RED%*%ORANGE%*%YELLOW%*%GREEN%* %NAME% %GREEN%*%YELLOW%*%ORANGE%*%RED%*%MAP-D3%
-ItemDisplay[UNI !ID ETH (xhn OR xpl OR utu)]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-D3%
-ItemDisplay[UNI !ID ETH (fld OR xea OR xrs OR xlt OR xth OR xul OR xar OR xtp OR uui OR upl)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-D3%
-ItemDisplay[UNI !ID ETH (hla OR rng OR chn OR brs OR spl OR gth OR aar OR ltp OR xui OR xng OR xcl OR xld)]:%RED%* %NAME% %RED%*%DOT-D3%
+ItemDisplay[UNI !ID !ETH uar]:%RED%·%ORANGE%·%YELLOW%·%GREEN%·%BLUE%· %NAME% %BLUE%·%GREEN%·%YELLOW%·%ORANGE%·%RED%·%BORDER-D3%
+ItemDisplay[UNI !ID !ETH (xea OR xhn OR xpl OR xlt OR xth OR xar OR xtp OR uui OR utu OR upl OR uld OR utp)]:%RED%·%ORANGE%· %NAME% %ORANGE%·%RED%·%DOT-D3%
+ItemDisplay[UNI !ID !ETH (ltp OR xul OR uul)]:%RED%· %NAME% %RED%·%DOT-D3%
+ItemDisplay[UNI !ID ETH (uar OR utp)]:%RED%·%ORANGE%·%YELLOW%·%GREEN%·%BLUE%· %NAME% %BLUE%·%GREEN%·%YELLOW%·%ORANGE%·%RED%·%BORDER-D3%
+ItemDisplay[UNI !ID ETH (xpl OR uul)]:%RED%·%ORANGE%·%YELLOW%·%GREEN%· %NAME% %GREEN%·%YELLOW%·%ORANGE%·%RED%·%MAP-D3%
+ItemDisplay[UNI !ID ETH (xhn OR utu)]:%RED%·%ORANGE%·%YELLOW%· %NAME% %YELLOW%·%ORANGE%·%RED%·%MAP-D3%
+ItemDisplay[UNI !ID ETH (xul OR xar OR upl)]:%RED%·%ORANGE%· %NAME% %ORANGE%·%RED%·%DOT-D3%
+ItemDisplay[UNI !ID ETH (ltp OR xea OR xlt OR xth OR xtp OR uui)]:%RED%· %NAME% %RED%·%DOT-D3%
 //Gloves
-ItemDisplay[UNI !ID !ETH (uvg OR umg)]:%RED%*%ORANGE%*%YELLOW%*%GREEN%* %NAME% %GREEN%*%YELLOW%*%ORANGE%*%RED%*%MAP-D3%
-ItemDisplay[UNI !ID !ETH (utg OR uhg)]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-D3%
-ItemDisplay[UNI !ID !ETH (mgl OR tgl OR xlg OR xvg OR xmg OR xtg OR xhg)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-D3%
-ItemDisplay[UNI !ID !ETH (vgl OR hgl)]:%RED%* %NAME% %RED%*%DOT-D3%
-ItemDisplay[UNI !ID ETH (uvg OR umg)]:%RED%*%ORANGE%*%YELLOW%*%GREEN%* %NAME% %GREEN%*%YELLOW%*%ORANGE%*%RED%*%MAP-D3%
-ItemDisplay[UNI !ID ETH (xvg OR xmg OR utg OR uhg)]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-D3%
-ItemDisplay[UNI !ID ETH mgl]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-D3%
-ItemDisplay[UNI !ID ETH (tgl OR xlg OR xtg OR xhg)]:%RED%* %NAME% %RED%*%DOT-D3%
+ItemDisplay[UNI !ID !ETH (uvg OR umg OR utg OR uhg)]:%RED%·%ORANGE%·%YELLOW%·%GREEN%· %NAME% %GREEN%·%YELLOW%·%ORANGE%·%RED%·%MAP-D3%
+ItemDisplay[UNI !ID !ETH (xlg OR xvg OR xhg)]:%RED%·%ORANGE%· %NAME% %ORANGE%·%RED%·%DOT-D3%
+ItemDisplay[UNI !ID !ETH (mgl OR tgl OR xmg)]:%RED%· %NAME% %RED%·%DOT-D3%
+ItemDisplay[UNI !ID ETH uvg]:%RED%·%ORANGE%·%YELLOW%·%GREEN%· %NAME% %GREEN%·%YELLOW%·%ORANGE%·%RED%·%MAP-D3%
+ItemDisplay[UNI !ID ETH (xvg OR xmg OR utg OR uhg)]:%RED%·%ORANGE%·%YELLOW%· %NAME% %YELLOW%·%ORANGE%·%RED%·%MAP-D3%
+ItemDisplay[UNI !ID ETH umg]:%RED%·%ORANGE%· %NAME% %ORANGE%·%RED%·%DOT-D3%
 //Belt
-ItemDisplay[UNI !ID !ETH (ulc OR uvc)]:%RED%*%ORANGE%*%YELLOW%*%GREEN%* %NAME% %GREEN%*%YELLOW%*%ORANGE%*%RED%*%MAP-D3%
-ItemDisplay[UNI !ID !ETH (zlb OR zhb OR umc)]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-D3%
-ItemDisplay[UNI !ID !ETH (tbl OR zvb OR ztb)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-D3%
-ItemDisplay[UNI !ID !ETH (vbl OR mbl OR hbl OR zmb)]:%RED%* %NAME% %RED%*%DOT-D3%
-ItemDisplay[UNI !ID ETH (zlb OR uvc)]:%RED%*%ORANGE%*%YELLOW%*%GREEN%* %NAME% %GREEN%*%YELLOW%*%ORANGE%*%RED%*%MAP-D3%
-ItemDisplay[UNI !ID ETH (tbl OR zvb OR ztb OR zhb OR ulc OR umc)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-D3%
-ItemDisplay[UNI !ID ETH (mbl OR hbl OR zmb)]:%RED%* %NAME% %RED%*%DOT-D3%
+ItemDisplay[UNI !ID !ETH ulc]:%RED%·%ORANGE%·%YELLOW%·%GREEN%·%BLUE%· %NAME% %BLUE%·%GREEN%·%YELLOW%·%ORANGE%·%RED%·%BORDER-D3%
+ItemDisplay[UNI !ID !ETH uvc]:%RED%·%ORANGE%·%YELLOW%·%GREEN%· %NAME% %GREEN%·%YELLOW%·%ORANGE%·%RED%·%MAP-D3%
+ItemDisplay[UNI !ID !ETH (zlb OR umc)]:%RED%·%ORANGE%·%YELLOW%· %NAME% %YELLOW%·%ORANGE%·%RED%·%MAP-D3%
+ItemDisplay[UNI !ID !ETH (ztb OR zhb)]:%RED%·%ORANGE%· %NAME% %ORANGE%·%RED%·%DOT-D3%
+ItemDisplay[UNI !ID !ETH tbl]:%RED%· %NAME% %RED%·%DOT-D3%
+ItemDisplay[UNI !ID ETH uvc]:%RED%·%ORANGE%·%YELLOW%·%GREEN%·%BLUE%· %NAME% %BLUE%·%GREEN%·%YELLOW%·%ORANGE%·%RED%·%BORDER-D3%
+ItemDisplay[UNI !ID ETH zlb]:%RED%·%ORANGE%·%YELLOW%·%GREEN%· %NAME% %GREEN%·%YELLOW%·%ORANGE%·%RED%·%MAP-D3%
+ItemDisplay[UNI !ID ETH (ulc OR umc)]:%RED%·%ORANGE%·%YELLOW%· %NAME% %YELLOW%·%ORANGE%·%RED%·%MAP-D3%
+ItemDisplay[UNI !ID ETH (tbl OR ztb OR zhb)]:%RED%· %NAME% %RED%·%DOT-D3%
 //Boots
-ItemDisplay[UNI !ID !ETH xtb]:%RED%*%ORANGE%*%YELLOW%*%GREEN%* %NAME% %GREEN%*%YELLOW%*%ORANGE%*%RED%*%MAP-D3%
-ItemDisplay[UNI !ID !ETH (xhb OR umb OR uhb)]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-D3%
-ItemDisplay[UNI !ID !ETH (lbt OR mbt OR tbt OR xvb OR ulb OR uvb)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-D3%
-ItemDisplay[UNI !ID !ETH (vbt OR hbt OR xlb OR xmb)]:%RED%* %NAME% %RED%*%DOT-D3%
-ItemDisplay[UNI !ID ETH uvb]:%RED%*%ORANGE%*%YELLOW%*%GREEN%* %NAME% %GREEN%*%YELLOW%*%ORANGE%*%RED%*%MAP-D3%
-ItemDisplay[UNI !ID ETH (xhb OR umb)]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-D3%
-ItemDisplay[UNI !ID ETH (lbt OR mbt OR tbt OR xtb OR uhb)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-D3%
-ItemDisplay[UNI !ID ETH (vbt OR hbt OR xlb OR xvb OR ulb)]:%RED%* %NAME% %RED%*%DOT-D3%
+ItemDisplay[UNI !ID !ETH (xtb OR xhb)]:%RED%·%ORANGE%·%YELLOW%·%GREEN%· %NAME% %GREEN%·%YELLOW%·%ORANGE%·%RED%·%MAP-D3%
+ItemDisplay[UNI !ID !ETH (lbt OR umb)]:%RED%·%ORANGE%·%YELLOW%· %NAME% %YELLOW%·%ORANGE%·%RED%·%MAP-D3%
+ItemDisplay[UNI !ID !ETH (tbt OR xvb OR uhb)]:%RED%·%ORANGE%· %NAME% %ORANGE%·%RED%·%DOT-D3%
+ItemDisplay[UNI !ID !ETH (mbt OR ulb OR uvb)]:%RED%· %NAME% %RED%·%DOT-D3%
+ItemDisplay[UNI !ID ETH (xhb OR uvb)]:%RED%·%ORANGE%·%YELLOW%·%GREEN%· %NAME% %GREEN%·%YELLOW%·%ORANGE%·%RED%·%MAP-D3%
+ItemDisplay[UNI !ID ETH (tbt OR umb)]:%RED%·%ORANGE%·%YELLOW%· %NAME% %YELLOW%·%ORANGE%·%RED%·%MAP-D3%
+ItemDisplay[UNI !ID ETH (xvb OR xtb)]:%RED%·%ORANGE%· %NAME% %ORANGE%·%RED%·%DOT-D3%
+ItemDisplay[UNI !ID ETH (lbt OR mbt OR uhb)]:%RED%· %NAME% %RED%·%DOT-D3%
 //Shield
-ItemDisplay[UNI !ID !ETH (xow OR xsh OR uit OR uow OR uts OR ush)]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-D3%
-ItemDisplay[UNI !ID !ETH (xml OR xts OR xpk OR uml OR upk)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-D3%
-ItemDisplay[UNI !ID !ETH (kit OR xuc OR xrg OR xit)]:%RED%* %NAME% %RED%*%DOT-D3%
-ItemDisplay[UNI !ID ETH (xow OR xsh OR uow OR uts OR ush)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-D3%
-ItemDisplay[UNI !ID ETH (kit OR xuc OR xml OR xrg OR xit OR xts OR xpk OR uml OR upk)]:%RED%* %NAME% %RED%*%DOT-D3%
+ItemDisplay[UNI !ID !ETH (xow OR uit OR uts OR ush)]:%RED%·%ORANGE%·%YELLOW%· %NAME% %YELLOW%·%ORANGE%·%RED%·%MAP-D3%
+ItemDisplay[UNI !ID !ETH (xsh OR uow)]:%RED%·%ORANGE%· %NAME% %ORANGE%·%RED%·%DOT-D3%
+ItemDisplay[UNI !ID !ETH (xts OR uml OR upk)]:%RED%· %NAME% %RED%·%DOT-D3%
+ItemDisplay[UNI !ID ETH ush]:%RED%·%ORANGE%· %NAME% %ORANGE%·%RED%·%DOT-D3%
+ItemDisplay[UNI !ID ETH (xow OR xsh OR uow OR uts OR upk)]:%RED%· %NAME% %RED%·%DOT-D3%
 //Axe
-ItemDisplay[UNI !ID !ETH (72a OR 7wa OR 7bt OR 7ga OR 7gi OR 7ta OR 7b8)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-D3%
-ItemDisplay[UNI !ID !ETH (gax OR gix OR 9ax OR 92a OR 9la OR 9ba OR 9bt OR 9ga OR 9gi OR 7ha)]:%RED%* %NAME% %RED%*%DOT-D3%
-ItemDisplay[UNI !ID ETH 7b8]:%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%* %NAME% %BLUE%*%GREEN%*%YELLOW%*%ORANGE%*%RED%*%BORDER-D3%
-ItemDisplay[UNI !ID ETH (7wa OR 7ga OR 7gi)]:%RED%*%ORANGE%*%YELLOW%*%GREEN%* %NAME% %GREEN%*%YELLOW%*%ORANGE%*%RED%*%MAP-D3%
-ItemDisplay[UNI !ID ETH (72a OR 7bt OR 7ta)]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-D3%
-ItemDisplay[UNI !ID ETH (9gi OR 7ba)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-D3%
-ItemDisplay[UNI !ID ETH (gax OR gix OR 9ax OR 92a OR 9la OR 9ba OR 9bt OR 9ga OR 7ha)]:%RED%* %NAME% %RED%*%DOT-D3%
+ItemDisplay[UNI !ID !ETH 7b8]:%RED%·%ORANGE%· %NAME% %ORANGE%·%RED%·%DOT-D3%
+ItemDisplay[UNI !ID !ETH (72a OR 7wa OR 7bt OR 7ga OR 7gi OR 7ta)]:%RED%· %NAME% %RED%·%DOT-D3%
+ItemDisplay[UNI !ID ETH 7b8]:%RED%·%ORANGE%·%YELLOW%·%GREEN%·%BLUE%· %NAME% %BLUE%·%GREEN%·%YELLOW%·%ORANGE%·%RED%·%BORDER-D3%
+ItemDisplay[UNI !ID ETH (7wa OR 7bt OR 7ga OR 7gi OR 7ta)]:%RED%·%ORANGE%·%YELLOW%· %NAME% %YELLOW%·%ORANGE%·%RED%·%MAP-D3%
+ItemDisplay[UNI !ID ETH 72a]:%RED%·%ORANGE%· %NAME% %ORANGE%·%RED%·%DOT-D3%
+ItemDisplay[UNI !ID ETH (9gi OR 9ta)]:%RED%· %NAME% %RED%·%DOT-D3%
 //Bow
-ItemDisplay[UNI !ID !ETH 6lw]:%RED%*%ORANGE%*%YELLOW%*%GREEN%* %NAME% %GREEN%*%YELLOW%*%ORANGE%*%RED%*%MAP-D3%
-ItemDisplay[UNI !ID !ETH (8s8 OR 8sw OR 6l7 OR 6sw OR 8mx OR 8hx OR 8rx OR 6hx OR 6rx)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-D3%
-ItemDisplay[UNI !ID !ETH (cbw OR swb OR 8lb OR 8l8 OR 8lw OR rxb)]:%RED%* %NAME% %RED%*%DOT-D3%
+ItemDisplay[UNI !ID !ETH 6lw]:%RED%·%ORANGE%·%YELLOW%·%GREEN%· %NAME% %GREEN%·%YELLOW%·%ORANGE%·%RED%·%MAP-D3%
+ItemDisplay[UNI !ID !ETH (8s8 OR 8mx)]:%RED%·%ORANGE%· %NAME% %ORANGE%·%RED%·%DOT-D3%
+ItemDisplay[UNI !ID !ETH (8lw OR 6l7 OR 6sw OR 8hx OR 8rx OR 6hx)]:%RED%· %NAME% %RED%·%DOT-D3%
 //Dagger
-ItemDisplay[UNI !ID !ETH (9bl OR 7dg OR 7kr)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-D3%
-ItemDisplay[UNI !ID !ETH (dgr OR kri OR bld OR 9dg OR 9di OR 9kr OR 9tk OR 7bk)]:%RED%* %NAME% %RED%*%DOT-D3%
-ItemDisplay[UNI !ID ETH (7kr OR 7bk)]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-D3%
-ItemDisplay[UNI !ID ETH (9di OR 9bl OR 7bl OR 9tk)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-D3%
-ItemDisplay[UNI !ID ETH (kri OR bld OR 9dg OR 9kr)]:%RED%* %NAME% %RED%*%DOT-D3%
+ItemDisplay[UNI !ID !ETH (9di OR 9kr OR 9bl OR 7kr OR 7bk)]:%RED%· %NAME% %RED%·%DOT-D3%
+ItemDisplay[UNI !ID ETH 7bl]:%RED%·%ORANGE%·%YELLOW%· %NAME% %YELLOW%·%ORANGE%·%RED%·%MAP-D3%
+ItemDisplay[UNI !ID ETH (9di OR 7kr OR 7bk)]:%RED%·%ORANGE%· %NAME% %ORANGE%·%RED%·%DOT-D3%
+ItemDisplay[UNI !ID ETH (9kr OR 9bl)]:%RED%· %NAME% %RED%·%DOT-D3%
 //Mace
-ItemDisplay[UNI !ID !ETH 7ws]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-D3%
-ItemDisplay[UNI !ID !ETH (7fl OR 9gm OR 7wh OR 7m7 OR 7gm OR 9ws OR 7sc OR 7qs)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-D3%
-ItemDisplay[UNI !ID !ETH (9cl OR 9sp OR 7cl OR 7sp OR 9ma OR 9mt OR 7mt OR mau OR gma OR 9wh OR 9m9 OR gsc OR wsp)]:%RED%* %NAME% %RED%*%DOT-D3%
-ItemDisplay[UNI !ID ETH 7gm]:%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%* %NAME% %BLUE%*%GREEN%*%YELLOW%*%ORANGE%*%RED%*%BORDER-D3%
-ItemDisplay[UNI !ID ETH (9gm OR 7wh)]:%RED%*%ORANGE%*%YELLOW%*%GREEN%* %NAME% %GREEN%*%YELLOW%*%ORANGE%*%RED%*%MAP-D3%
-ItemDisplay[UNI !ID ETH (7m7 OR 7ws)]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-D3%
-ItemDisplay[UNI !ID ETH (7fl OR 9ws OR 7sc OR 7qs)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-D3%
-ItemDisplay[UNI !ID ETH (9cl OR 9sp OR 7cl OR 7sp OR 9ma OR 9mt OR 7mt OR mau OR gma OR 9wh OR 9m9 OR gsc OR wsp)]:%RED%* %NAME% %RED%*%DOT-D3%
+ItemDisplay[UNI !ID !ETH (7gm OR 7ws)]:%RED%·%ORANGE%·%YELLOW%· %NAME% %YELLOW%·%ORANGE%·%RED%·%MAP-D3%
+ItemDisplay[UNI !ID !ETH (7fl OR 9gm OR 7wh OR 9ws OR 7sc OR 7qs)]:%RED%·%ORANGE%· %NAME% %ORANGE%·%RED%·%DOT-D3%
+ItemDisplay[UNI !ID !ETH (9wh OR 7m7)]:%RED%· %NAME% %RED%·%DOT-D3%
+ItemDisplay[UNI !ID ETH (9gm OR 7wh OR 7gm)]:%RED%·%ORANGE%·%YELLOW%·%GREEN%·%BLUE%· %NAME% %BLUE%·%GREEN%·%YELLOW%·%ORANGE%·%RED%·%BORDER-D3%
+ItemDisplay[UNI !ID ETH (7m7 OR 7ws)]:%RED%·%ORANGE%·%YELLOW%· %NAME% %YELLOW%·%ORANGE%·%RED%·%MAP-D3%
+ItemDisplay[UNI !ID ETH (9ws OR 7sc OR 7qs)]:%RED%·%ORANGE%· %NAME% %ORANGE%·%RED%·%DOT-D3%
+ItemDisplay[UNI !ID ETH (7fl OR 9wh)]:%RED%· %NAME% %RED%·%DOT-D3%
 //Polearm
-ItemDisplay[UNI !ID !ETH 7wc]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-D3%
-ItemDisplay[UNI !ID !ETH (9s8 OR 9wc OR 7s8)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-D3%
-ItemDisplay[UNI !ID !ETH (9vo OR 9pa OR 7o7 OR 7pa OR scy)]:%RED%* %NAME% %RED%*%DOT-D3%
-ItemDisplay[UNI !ID ETH (7pa OR 7s8 OR 7wc)]:%RED%*%ORANGE%*%YELLOW%*%GREEN%* %NAME% %GREEN%*%YELLOW%*%ORANGE%*%RED%*%MAP-D3%
-ItemDisplay[UNI !ID ETH 7o7]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-D3%
-ItemDisplay[UNI !ID ETH (9s8 OR 9wc)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-D3%
-ItemDisplay[UNI !ID ETH (9vo OR 9pa OR scy)]:%RED%* %NAME% %RED%*%DOT-D3%
+ItemDisplay[UNI !ID !ETH (9wc OR 7s8 OR 7wc)]:%RED%·%ORANGE%· %NAME% %ORANGE%·%RED%·%DOT-D3%
+ItemDisplay[UNI !ID !ETH (7o7 OR 7pa OR scy)]:%RED%· %NAME% %RED%·%DOT-D3%
+ItemDisplay[UNI !ID ETH (7s8 OR 7wc)]:%RED%·%ORANGE%·%YELLOW%·%GREEN%· %NAME% %GREEN%·%YELLOW%·%ORANGE%·%RED%·%MAP-D3%
+ItemDisplay[UNI !ID ETH 7pa]:%RED%·%ORANGE%·%YELLOW%· %NAME% %YELLOW%·%ORANGE%·%RED%·%MAP-D3%
+ItemDisplay[UNI !ID ETH (7o7 OR 9wc)]:%RED%·%ORANGE%· %NAME% %ORANGE%·%RED%·%DOT-D3%
+ItemDisplay[UNI !ID ETH scy]:%RED%· %NAME% %RED%·%DOT-D3%
 //Spear
-ItemDisplay[UNI !ID !ETH 7p7]:%RED%*%ORANGE%*%YELLOW%*%GREEN%* %NAME% %GREEN%*%YELLOW%*%ORANGE%*%RED%*%MAP-D3%
-ItemDisplay[UNI !ID !ETH (9sr OR 7sr OR 7st OR 7gl OR 7ts)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-D3%
-ItemDisplay[UNI !ID !ETH (9st OR 9p9 OR 7br OR 7s7)]:%RED%* %NAME% %RED%*%DOT-D3%
-ItemDisplay[UNI !ID ETH 7p7]:%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%* %NAME% %BLUE%*%GREEN%*%YELLOW%*%ORANGE%*%RED%*%BORDER-D3%
-ItemDisplay[UNI !ID ETH 7gl]:%RED%*%ORANGE%*%YELLOW%*%GREEN%* %NAME% %GREEN%*%YELLOW%*%ORANGE%*%RED%*%MAP-D3%
-ItemDisplay[UNI !ID ETH (9sr OR 7sr OR 7st)]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-D3%
-ItemDisplay[UNI !ID ETH (9st OR 7br OR 7s7 OR 7ts)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-D3%
-ItemDisplay[UNI !ID ETH 9p9]:%RED%* %NAME% %RED%*%DOT-D3%
+ItemDisplay[UNI !ID !ETH 7p7]:%RED%·%ORANGE%·%YELLOW%·%GREEN%· %NAME% %GREEN%·%YELLOW%·%ORANGE%·%RED%·%MAP-D3%
+ItemDisplay[UNI !ID !ETH (7st OR 7ts)]:%RED%·%ORANGE%· %NAME% %ORANGE%·%RED%·%DOT-D3%
+ItemDisplay[UNI !ID !ETH (9sr OR 7sr OR 7br OR 7gl)]:%RED%· %NAME% %RED%·%DOT-D3%
+ItemDisplay[UNI !ID ETH 7p7]:%RED%·%ORANGE%·%YELLOW%·%GREEN%·%BLUE%· %NAME% %BLUE%·%GREEN%·%YELLOW%·%ORANGE%·%RED%·%BORDER-D3%
+ItemDisplay[UNI !ID ETH 7gl]:%RED%·%ORANGE%·%YELLOW%·%GREEN%· %NAME% %GREEN%·%YELLOW%·%ORANGE%·%RED%·%MAP-D3%
+ItemDisplay[UNI !ID ETH (9sr OR 7sr OR 7ts)]:%RED%·%ORANGE%·%YELLOW%· %NAME% %YELLOW%·%ORANGE%·%RED%·%MAP-D3%
+ItemDisplay[UNI !ID ETH 7st]:%RED%·%ORANGE%· %NAME% %ORANGE%·%RED%·%DOT-D3%
+ItemDisplay[UNI !ID ETH (7br OR 7s7)]:%RED%· %NAME% %RED%·%DOT-D3%
 //Sword
-ItemDisplay[UNI !ID !ETH 7gd]:%RED%*%ORANGE%*%YELLOW%*%GREEN%* %NAME% %GREEN%*%YELLOW%*%ORANGE%*%RED%*%MAP-D3%
-ItemDisplay[UNI !ID !ETH 9ls]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-D3%
-ItemDisplay[UNI !ID !ETH (9fc OR 9gs OR 7cr OR 7ls OR 7cm OR 7gs OR 7b7 OR 7fb)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-D3%
-ItemDisplay[UNI !ID !ETH (lsd OR gsd OR 9sb OR 9bs OR 9wd OR 92h OR 9cm OR 9fb OR 9gd OR 7sm OR 7sb)]:%RED%* %NAME% %RED%*%DOT-D3%
-ItemDisplay[UNI !ID ETH (7b7 OR 7fb OR 7gd)]:%RED%*%ORANGE%*%YELLOW%*%GREEN%* %NAME% %GREEN%*%YELLOW%*%ORANGE%*%RED%*%MAP-D3%
-ItemDisplay[UNI !ID ETH (9gs OR 7cm)]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-D3%
-ItemDisplay[UNI !ID ETH (9fc OR 9bs OR 9ls OR 92h OR 7ls OR 7gs)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-D3%
-ItemDisplay[UNI !ID ETH (lsd OR gsd OR 9sb OR 9wd OR 9cm OR 9fb OR 9gd OR 7sm OR 7sb)]:%RED%* %NAME% %RED%*%DOT-D3%
+ItemDisplay[UNI !ID !ETH 7gd]:%RED%·%ORANGE%·%YELLOW%·%GREEN%· %NAME% %GREEN%·%YELLOW%·%ORANGE%·%RED%·%MAP-D3%
+ItemDisplay[UNI !ID !ETH 9ls]:%RED%·%ORANGE%·%YELLOW%· %NAME% %YELLOW%·%ORANGE%·%RED%·%MAP-D3%
+ItemDisplay[UNI !ID !ETH (9fc OR 7ls OR 7cm OR 7fb)]:%RED%·%ORANGE%· %NAME% %ORANGE%·%RED%·%DOT-D3%
+ItemDisplay[UNI !ID !ETH (9bs OR 9gs OR 7cr OR 7b7)]:%RED%· %NAME% %RED%·%DOT-D3%
+ItemDisplay[UNI !ID ETH 7gd]:%RED%·%ORANGE%·%YELLOW%·%GREEN%·%BLUE%· %NAME% %BLUE%·%GREEN%·%YELLOW%·%ORANGE%·%RED%·%BORDER-D3%
+ItemDisplay[UNI !ID ETH (7b7 OR 7fb)]:%RED%·%ORANGE%·%YELLOW%·%GREEN%· %NAME% %GREEN%·%YELLOW%·%ORANGE%·%RED%·%MAP-D3%
+ItemDisplay[UNI !ID ETH (9fc OR 9bs OR 9ls OR 9gs OR 7ls OR 7cm)]:%RED%·%ORANGE%· %NAME% %ORANGE%·%RED%·%DOT-D3%
 //Staff
-ItemDisplay[UNI !ID !ETH 6ws]:%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%* %NAME% %BLUE%*%GREEN%*%YELLOW%*%ORANGE%*%RED%*%BORDER-D3%
-ItemDisplay[UNI !ID !ETH 7gw]:%RED%*%ORANGE%*%YELLOW%*%GREEN%* %NAME% %GREEN%*%YELLOW%*%ORANGE%*%RED%*%MAP-D3%
-ItemDisplay[UNI !ID !ETH (6bs OR 9bw OR 7bw)]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-D3%
-ItemDisplay[UNI !ID !ETH (8ws OR 6cs)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-D3%
-ItemDisplay[UNI !ID !ETH (cst OR bst OR wst OR 8ls OR 8cs OR 8bs OR ywn OR bwn OR gwn OR 9wn OR 9yw OR 9gw)]:%RED%* %NAME% %RED%*%DOT-D3%
-ItemDisplay[UNI !ID ETH 6ws]:%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%* %NAME% %BLUE%*%GREEN%*%YELLOW%*%ORANGE%*%RED%*%BORDER-D3%
-ItemDisplay[UNI !ID ETH 7gw]:%RED%*%ORANGE%*%YELLOW%*%GREEN%* %NAME% %GREEN%*%YELLOW%*%ORANGE%*%RED%*%MAP-D3%
-ItemDisplay[UNI !ID ETH (6bs OR 9bw OR 7bw)]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-D3%
-ItemDisplay[UNI !ID ETH (8ls OR 8ws OR 6cs)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-D3%
-ItemDisplay[UNI !ID ETH (cst OR bst OR wst OR 8cs OR 8bs OR ywn OR bwn OR gwn OR 9wn OR 9yw OR 9gw)]:%RED%* %NAME% %RED%*%DOT-D3%
+ItemDisplay[UNI !ID !ETH 6ws]:%RED%·%ORANGE%·%YELLOW%·%GREEN%·%BLUE%· %NAME% %BLUE%·%GREEN%·%YELLOW%·%ORANGE%·%RED%·%BORDER-D3%
+ItemDisplay[UNI !ID !ETH (9bw OR 7gw)]:%RED%·%ORANGE%·%YELLOW%·%GREEN%· %NAME% %GREEN%·%YELLOW%·%ORANGE%·%RED%·%MAP-D3%
+ItemDisplay[UNI !ID !ETH (6bs OR 7bw)]:%RED%·%ORANGE%·%YELLOW%· %NAME% %YELLOW%·%ORANGE%·%RED%·%MAP-D3%
+ItemDisplay[UNI !ID !ETH 8ws]:%RED%·%ORANGE%· %NAME% %ORANGE%·%RED%·%DOT-D3%
+ItemDisplay[UNI !ID !ETH (cst OR 8bs OR 6cs OR 9gw)]:%RED%· %NAME% %RED%·%DOT-D3%
+ItemDisplay[UNI !ID ETH 6ws]:%RED%·%ORANGE%·%YELLOW%·%GREEN%·%BLUE%· %NAME% %BLUE%·%GREEN%·%YELLOW%·%ORANGE%·%RED%·%BORDER-D3%
+ItemDisplay[UNI !ID ETH (9bw OR 7gw)]:%RED%·%ORANGE%·%YELLOW%·%GREEN%· %NAME% %GREEN%·%YELLOW%·%ORANGE%·%RED%·%MAP-D3%
+ItemDisplay[UNI !ID ETH (6bs OR 7bw)]:%RED%·%ORANGE%·%YELLOW%· %NAME% %YELLOW%·%ORANGE%·%RED%·%MAP-D3%
+ItemDisplay[UNI !ID ETH 8ws]:%RED%·%ORANGE%· %NAME% %ORANGE%·%RED%·%DOT-D3%
+ItemDisplay[UNI !ID ETH (cst OR 8ls OR 8bs OR 6cs OR 9gw)]:%RED%· %NAME% %RED%·%DOT-D3%
 //Class Armor
-ItemDisplay[UNI !ID !ETH (baa OR bae OR dra)]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-D3%
-ItemDisplay[UNI !ID !ETH (ba6 OR bac OR bad OR baf OR dr2 OR drb OR drd OR dre OR drf)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-D3%
-ItemDisplay[UNI !ID ETH (ba6 OR baa OR bac OR bad OR bae OR baf OR dra OR drb OR drf)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-D3%
-ItemDisplay[UNI !ID ETH (dr2 OR drd OR dre)]:%RED%* %NAME% %RED%*%DOT-D3%
+ItemDisplay[UNI !ID !ETH (baa OR bae OR dra OR drf)]:%RED%·%ORANGE%·%YELLOW%· %NAME% %YELLOW%·%ORANGE%·%RED%·%MAP-D3%
+ItemDisplay[UNI !ID !ETH (bac OR bad OR baf OR drb OR drd OR dre)]:%RED%·%ORANGE%· %NAME% %ORANGE%·%RED%·%DOT-D3%
+ItemDisplay[UNI !ID !ETH (ba6 OR dr2)]:%RED%· %NAME% %RED%·%DOT-D3%
+ItemDisplay[UNI !ID ETH (baa OR bae OR dra OR drf)]:%RED%·%ORANGE%· %NAME% %ORANGE%·%RED%·%DOT-D3%
+ItemDisplay[UNI !ID ETH (ba6 OR bac OR bad OR baf OR dr2 OR drb OR drd OR dre)]:%RED%· %NAME% %RED%·%DOT-D3%
 //Class Shield
-ItemDisplay[UNI !ID !ETH (pa9 OR nee)]:%RED%*%ORANGE%*%YELLOW%*%GREEN%* %NAME% %GREEN%*%YELLOW%*%ORANGE%*%RED%*%MAP-D3%
-ItemDisplay[UNI !ID !ETH nea]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-D3%
-ItemDisplay[UNI !ID !ETH (pac OR pae OR ned OR nef)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-D3%
-ItemDisplay[UNI !ID !ETH (pa3 OR ne6)]:%RED%* %NAME% %RED%*%DOT-D3%
-ItemDisplay[UNI !ID ETH (pa9 OR nea OR nee)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-D3%
-ItemDisplay[UNI !ID ETH (pac OR pae OR ne6 OR ned OR nef)]:%RED%* %NAME% %RED%*%DOT-D3%
+ItemDisplay[UNI !ID !ETH (pa9 OR nee)]:%RED%·%ORANGE%·%YELLOW%·%GREEN%· %NAME% %GREEN%·%YELLOW%·%ORANGE%·%RED%·%MAP-D3%
+ItemDisplay[UNI !ID !ETH nea]:%RED%·%ORANGE%·%YELLOW%· %NAME% %YELLOW%·%ORANGE%·%RED%·%MAP-D3%
+ItemDisplay[UNI !ID !ETH (pac OR pae OR ned OR nef)]:%RED%·%ORANGE%· %NAME% %ORANGE%·%RED%·%DOT-D3%
+ItemDisplay[UNI !ID ETH (pa9 OR nee)]:%RED%·%ORANGE%· %NAME% %ORANGE%·%RED%·%DOT-D3%
+ItemDisplay[UNI !ID ETH (pac OR pae OR nea OR ned OR nef)]:%RED%· %NAME% %RED%·%DOT-D3%
 //Class Weapon
-ItemDisplay[UNI !ID !ETH obf]:%RED%*%ORANGE%*%YELLOW%*%GREEN%* %NAME% %GREEN%*%YELLOW%*%ORANGE%*%RED%*%MAP-D3%
-ItemDisplay[UNI !ID !ETH (amb OR oba OR obc)]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-D3%
-ItemDisplay[UNI !ID !ETH (ama OR amf OR 9tw OR 7wb OR 7lw OR 7tw)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-D3%
-ItemDisplay[UNI !ID !ETH (am7 OR am9 OR amd OR ame OR am5 OR 9ar OR ob6)]:%RED%* %NAME% %RED%*%DOT-D3%
-ItemDisplay[UNI !ID ETH (ama OR amf OR obf)]:%RED%*%ORANGE%*%YELLOW%*%GREEN%* %NAME% %GREEN%*%YELLOW%*%ORANGE%*%RED%*%MAP-D3%
-ItemDisplay[UNI !ID ETH (9tw OR 7tw OR oba OR obc)]:%RED%*%ORANGE%*%YELLOW%* %NAME% %YELLOW%*%ORANGE%*%RED%*%MAP-D3%
-ItemDisplay[UNI !ID ETH (am9 OR amd OR ame OR 9ar OR 7wb OR 7cs)]:%RED%*%ORANGE%* %NAME% %ORANGE%*%RED%*%DOT-D3%
-ItemDisplay[UNI !ID ETH (am5 OR 7lw OR ob6)]:%RED%* %NAME% %RED%*%DOT-D3%
+ItemDisplay[UNI !ID !ETH obf]:%RED%·%ORANGE%·%YELLOW%·%GREEN%· %NAME% %GREEN%·%YELLOW%·%ORANGE%·%RED%·%MAP-D3%
+ItemDisplay[UNI !ID !ETH (oba OR obc)]:%RED%·%ORANGE%·%YELLOW%· %NAME% %YELLOW%·%ORANGE%·%RED%·%MAP-D3%
+ItemDisplay[UNI !ID !ETH (amb OR ama OR amf OR 9tw OR 7tw)]:%RED%·%ORANGE%· %NAME% %ORANGE%·%RED%·%DOT-D3%
+ItemDisplay[UNI !ID !ETH (am7 OR am9 OR amd OR ame OR 7wb OR 7lw)]:%RED%· %NAME% %RED%·%DOT-D3%
+ItemDisplay[UNI !ID ETH (ama OR 7tw OR obf)]:%RED%·%ORANGE%·%YELLOW%·%GREEN%· %NAME% %GREEN%·%YELLOW%·%ORANGE%·%RED%·%MAP-D3%
+ItemDisplay[UNI !ID ETH (amf OR oba OR obc)]:%RED%·%ORANGE%·%YELLOW%· %NAME% %YELLOW%·%ORANGE%·%RED%·%MAP-D3%
+ItemDisplay[UNI !ID ETH (am9 OR amd OR ame OR 9tw OR 7cs)]:%RED%·%ORANGE%· %NAME% %ORANGE%·%RED%·%DOT-D3%
+ItemDisplay[UNI !ID ETH (7wb OR 7lw)]:%RED%· %NAME% %RED%·%DOT-D3%
 \~~~
 /~~~Set Items~~~
 //Natalya's Odium
