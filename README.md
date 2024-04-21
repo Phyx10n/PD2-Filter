@@ -7,7 +7,6 @@ The goal of this filter was to provide a simple, and lightweight lootfilter to e
 This filter is being actively worked on, so do forgive any blemishes you happen to notice along the way. 
 
 ## Features
-* Crafting Recipes
 * Socketing/Upgrading recipes
 * Map immunities, and highest resistances
 
