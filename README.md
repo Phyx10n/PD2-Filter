@@ -3,8 +3,12 @@ A simple, clean, community driven loot filter
 
 The goal of this filter was to provide a simple, and lightweight lootfilter to eliminate the clutter on the ground, while highlighting the items that are *actually* worth picking up. 
 
-## Currently in development
 This filter is being actively worked on, so do forgive any blemishes you happen to notice along the way. 
+
+## Features in development
+* NMAG drop logic rework to incorporate any missing high-value bases
+* Affixes for mag/rare/crafted items (enabled by default, but not complete)
+* Automate tier changes for unique/rare items based on tradesite
 
 ## Features
 * Toggles for revealed unique/set names
