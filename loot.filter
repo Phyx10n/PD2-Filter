@@ -1562,11 +1562,11 @@ ItemDisplay[GOLD<1000 CLVL>59]:
 ItemDisplay[GOLD<2500 CLVL>79]:
 ItemDisplay[GOLD<5000 CLVL>79 FILTLVL>3]:
 //Misc
-ItemDisplay[!SHOW_POTIONS (hp1 OR mp1) CLVL>14]:
-ItemDisplay[!SHOW_POTIONS (hp2 OR mp2) CLVL>19]:
-ItemDisplay[!SHOW_POTIONS (hp3 OR mp3) CLVL>24]:
-ItemDisplay[!SHOW_POTIONS (hp4 OR mp4) CLVL>59]:
-ItemDisplay[!SHOW_POTIONS (hp5 OR mp5 OR rvs)]:
+ItemDisplay[!SHOW_POTIONS (hp1 OR mp1) CLVL>14 FILTLVL>3]:
+ItemDisplay[!SHOW_POTIONS (hp2 OR mp2) CLVL>19 FILTLVL>3]:
+ItemDisplay[!SHOW_POTIONS (hp3 OR mp3) CLVL>24 FILTLVL>3]:
+ItemDisplay[!SHOW_POTIONS (hp4 OR mp4) CLVL>59 FILTLVL>3]:
+ItemDisplay[!SHOW_POTIONS (hp5 OR mp5 OR rvs) FILTLVL>3]:
 ItemDisplay[GEMTYPE>0 GEM<4]:
 ItemDisplay[GEMTYPE>0 GEM=4 FILTLVL=5]:
 ItemDisplay[(upma OR urma) FILTLVL>3]:{%NAME%}
