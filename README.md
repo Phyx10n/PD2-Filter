@@ -7,14 +7,16 @@ The goal of this filter was to provide a simple, and lightweight lootfilter to e
 This filter is being actively worked on, so do forgive any blemishes you happen to notice along the way. 
 
 ## Features
-* Socketing/Upgrading recipes
+* Toggles for revealed unique/set names
+* Socketing/Upgrading/Crafting recipes
 * Map immunities, and highest resistances
+* PoE tink drop sounds on items T2 and up
 
 ## Item values
-The filter is driven primarily based on the value of items that drop, with the goal being to allow you to eliminate items below a certain threshold of value with filter levels as you go. 
-* 1: Items worth less than Lem, but still potentially worth picking up/corrupting
-* 2: Items worth between Lem, and Um that are always worth picking up, and identifying/corrupting
-* 3: Items worth between Um and Gul that can be worth multiple HRs with good corruptions
-* 4: Items worth between Gul and Lo that have GG potential
-* 5: Items worth more than Lo that have huge value
-* 6: Dclone/Rathma gear. Hard to do better than that.
+The filter is driven primarily based on the market-value of items that drop, with the goal being to allow you to eliminate items below a certain threshold of value with filter levels as you go. 
+* 1: Items worth 0.01 - 0.04, but still potentially worth picking up/corrupting along with magic/rare items with potential value
+* 2: Items worth between 0.05 - 0.09
+* 3: Items worth between 0.1 - 0.24
+* 4: Items worth between 0.25 - 0.49
+* 5: Items worth between 0.5 - 1.0
+* 6: Runes worth 2.0 or more, and DClone/Rathma gear
