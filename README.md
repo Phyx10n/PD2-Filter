@@ -3,8 +3,12 @@ A simple, clean, community driven loot filter
 
 The goal of this filter was to provide a simple, and lightweight lootfilter to eliminate the clutter on the ground, while highlighting the items that are *actually* worth picking up. 
 
-## Currently in development
 This filter is being actively worked on, so do forgive any blemishes you happen to notice along the way. 
+
+## Features in development
+* NMAG drop logic rework to incorporate any missing high-value bases
+* Affixes for mag/rare/crafted items (enabled by default, but not complete)
+* Automate tier changes for unique/rare items based on tradesite
 
 ## Features
 * Toggles for revealed unique/set names
@@ -18,5 +22,5 @@ The filter is driven primarily based on the market-value of items that drop, wit
 * 2: Items worth between 0.05 - 0.09
 * 3: Items worth between 0.1 - 0.24
 * 4: Items worth between 0.25 - 0.49
-* 5: Items worth between 0.5 - 1.0
+* 5: Items worth between 0.5 and up
 * 6: Runes worth 2.0 or more, and DClone/Rathma gear
