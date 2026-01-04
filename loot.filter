@@ -7,7 +7,7 @@ ItemDisplayFilterName[]:Extreme
 //Toggles
 Alias[SHOW_POTIONS]:FALSE
 Alias[SHOW_NAMES]:FALSE
-Alias[IN_TOWN]:TRUE
+Alias[IN_TOWN]:FALSE
 Alias[SHOW_T1]:FALSE
 //Notifications
 Alias[GEM_T0]:%NAME%{%NAME%}%PX-1F%%TIER-3%
@@ -50,15 +50,15 @@ Alias[SOUND_5]:%SOUNDID-4715%
 Alias[SOUND_6]:%SOUNDID-4723%
 //Items/Areas
 Alias[TOWN]:(MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)
-Alias[TRISTRAM]:(pk1 OR pk2 OR pk3 OR dhn OR bey OR mbr OR ubtm)
-Alias[DCLONE]:(dcma OR dcso OR dcbl OR dcho)
-Alias[RATHMA]:(rtma OR rtmv OR rtmo OR cm2f)
-Alias[LUCION]:(luca OR lucb OR lucc OR lucd)
-Alias[ANCIENTS]:(uba OR ubaa OR ubab OR ubac)
-Alias[TOKEN]:(toa OR tes OR ceh OR bet OR fed)
-Alias[MAP_ORBS]:(imma OR irma OR imra OR irra OR upma OR urma OR rera OR rrra OR scou OR fort OR upmp OR scrb OR iwss OR std)
-Alias[PD2]:(wss OR imrn OR lbox OR lpp OR lmal OR cwss OR rtp OR rid OR rkey OR lsvl OR llmr)
-Alias[INFUSION]:(crfb OR crfc OR crfs OR crfh OR crfv OR crfu OR crfp)
+//Alias[TRISTRAM]:(pk1 OR pk2 OR pk3 OR dhn OR bey OR mbr OR ubtm)
+//Alias[DCLONE]:(dcma OR dcso OR dcbl OR dcho)
+//Alias[RATHMA]:(rtma OR rtmv OR rtmo OR cm2f)
+//Alias[LUCION]:(luca OR lucb OR lucc OR lucd)
+//Alias[ANCIENTS]:(uba OR ubaa OR ubab OR ubac)
+//Alias[TOKEN]:(toa OR tes OR ceh OR bet OR fed)
+//Alias[MAP_ORBS]:(imma OR irma OR imra OR irra OR upma OR urma OR rera OR rrra OR scou OR fort OR upmp OR scrb OR iwss OR std)
+//Alias[PD2]:(wss OR imrn OR lbox OR lpp OR lmal OR cwss OR rtp OR rid OR rkey OR lsvl OR llmr)
+//Alias[INFUSION]:(crfb OR crfc OR crfs OR crfh OR crfv OR crfu OR crfp)
 Alias[POTION]:(hp1 OR mp1 OR hp2 OR mp2 OR hp3 OR mp3 OR hp4 OR mp4 OR hp5 OR mp5 OR rvs OR yps OR wms OR vps OR tpfs OR tpfm OR tpfl OR tpgs OR tpgm OR tpgl OR tpcs OR tpcm OR tpcl OR tpls OR tplm OR tpll)
 Alias[QUEST]:(bks OR bkd OR hdm OR tr1 OR ass OR box OR msf OR vip OR hst OR j34 OR g34 OR xyz OR g33 OR bbb OR qbr OR qey OR qhr OR qf1 OR qf2 OR mss OR hfh OR ice OR tr2 OR leg)
 \~~~
@@ -1272,8 +1272,8 @@ ItemDisplay[!SET !UNI !RW TABSK10>0 !SOR !STAFF]:%WHITE%+%TABSK10% %SAGE%Cold %N
 \~~~
 /~~~Misc Items
 //Show In Town/Inventory
-ItemDisplay[IN_TOWN !GROUND]:%NAME%{%NAME%}%WHITE%
-ItemDisplay[IN_TOWN !POTION !tsc !isc !key !GOLD<10000 TOWN]:%NAME%{%NAME%}%WHITE%
+ItemDisplay[!IN_TOWN !GROUND]:%NAME%{%NAME%}%WHITE%
+ItemDisplay[!IN_TOWN !POTION !tsc !isc !key !GOLD<10000 TOWN]:%NAME%{%NAME%}%WHITE%
 //Potions
 ItemDisplay[rvl]:%PURPLE%· %NAME%{%NAME%} %PURPLE%·
 //Gems
