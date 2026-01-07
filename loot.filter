@@ -1475,54 +1475,59 @@ ItemDisplay[UNI !ID ETH (9tw OR 7cs OR 7lw) (FILTLVL<5 OR SHOW_T1)]:%UNI_T1%
 \~~~
 /~~~Set Items
 //Misc
-ItemDisplay[SET !ID (amu OR rin)(FILTLVL<5 OR SHOW_T1)]:%SET_T1%
+ItemDisplay[SET !ID (amu OR rin) (FILTLVL<5 OR SHOW_T1)]:%SET_T1%
 //Helm
 ItemDisplay[SET !ID !ETH (xhm OR xh9 OR urn)]:%SET_T2%
-ItemDisplay[SET !ID !ETH (xap OR xsk OR uhm OR uh9 OR ci0 OR ci3)(FILTLVL<5 OR SHOW_T1)]:%SET_T1%
+ItemDisplay[SET !ID !ETH (xap OR xsk OR uhm OR uh9 OR ci0 OR ci3) (FILTLVL<5 OR SHOW_T1)]:%SET_T1%
 ItemDisplay[SET !ID ETH xhm]:%SET_T2%
-ItemDisplay[SET !ID ETH (xap OR xsk OR xh9 OR uhm OR urn OR uh9 OR ci0 OR ci3)(FILTLVL<5 OR SHOW_T1)]:%SET_T1%
+ItemDisplay[SET !ID ETH (xap OR xsk OR xh9 OR uhm OR urn OR uh9 OR ci0 OR ci3) (FILTLVL<5 OR SHOW_T1)]:%SET_T1%
 //Chest
 ItemDisplay[SET !ID !ETH ucl]:%SET_T2%
-ItemDisplay[SET !ID !ETH (stu OR xul OR xar OR ult OR uld OR uth OR uul OR uar)(FILTLVL<5 OR SHOW_T1)]:%SET_T1%
-ItemDisplay[SET !ID ETH (stu OR xul OR xar OR ucl OR ult OR uld OR uth OR uul OR uar)(FILTLVL<5 OR SHOW_T1)]:%SET_T1%
+ItemDisplay[SET !ID !ETH (stu OR xul OR xar OR ult OR uld OR uth OR uul OR uar) (FILTLVL<5 OR SHOW_T1)]:%SET_T1%
+ItemDisplay[SET !ID ETH (stu OR xul OR xar OR ucl OR ult OR uld OR uth OR uul OR uar) (FILTLVL<5 OR SHOW_T1)]:%SET_T1%
 //Gloves
 ItemDisplay[SET !ID !ETH (lgl OR xvg OR xmg OR ulg)]:%SET_T2%
-ItemDisplay[SET !ID !ETH (xtg OR xhg)(FILTLVL<5 OR SHOW_T1)]:%SET_T1%
+ItemDisplay[SET !ID !ETH (xtg OR xhg) (FILTLVL<5 OR SHOW_T1)]:%SET_T1%
 ItemDisplay[SET !ID ETH ulg]:%SET_T2%
-ItemDisplay[SET !ID ETH (lgl OR xvg OR xmg OR xtg OR xhg)(FILTLVL<5 OR SHOW_T1)]:%SET_T1%
+ItemDisplay[SET !ID ETH (lgl OR xvg OR xmg OR xtg OR xhg) (FILTLVL<5 OR SHOW_T1)]:%SET_T1%
 //Belt
-ItemDisplay[SET !ID !ETH (lbl OR zvb OR zmb OR zhb OR utc)(FILTLVL<5 OR SHOW_T1)]:%SET_T1%
-ItemDisplay[SET !ID ETH (lbl OR zvb OR zmb OR zhb OR utc)(FILTLVL<5 OR SHOW_T1)]:%SET_T1%
+ItemDisplay[SET !ID !ETH (lbl OR zvb OR zmb OR zhb OR utc) (FILTLVL<5 OR SHOW_T1)]:%SET_T1%
+ItemDisplay[SET !ID ETH (lbl OR zvb OR zmb OR zhb OR utc) (FILTLVL<5 OR SHOW_T1)]:%SET_T1%
 //Boots
 ItemDisplay[SET !ID !ETH (lbt OR xmb)]:%SET_T2%
-ItemDisplay[SET !ID !ETH (vbt OR xtb OR xhb)(FILTLVL<5 OR SHOW_T1)]:%SET_T1%
-ItemDisplay[SET !ID ETH (lbt OR vbt OR xmb OR xhb)(FILTLVL<5 OR SHOW_T1)]:%SET_T1%
+ItemDisplay[SET !ID !ETH (vbt OR xtb OR xhb) (FILTLVL<5 OR SHOW_T1)]:%SET_T1%
+ItemDisplay[SET !ID ETH (lbt OR vbt OR xmb OR xhb) (FILTLVL<5 OR SHOW_T1)]:%SET_T1%
 //Shield
-ItemDisplay[SET !ID !ETH (xml OR uts)(FILTLVL<5 OR SHOW_T1)]:%SET_T1%
-ItemDisplay[SET !ID ETH (xml OR uts)(FILTLVL<5 OR SHOW_T1)]:%SET_T1%
+ItemDisplay[SET !ID !ETH (xml OR uts) (FILTLVL<5 OR SHOW_T1)]:%SET_T1%
+ItemDisplay[SET !ID ETH (xml OR uts) (FILTLVL<5 OR SHOW_T1)]:%SET_T1%
+//Axe
+//Bow
+//Dagger
 //Mace
 ItemDisplay[SET !ID !ETH 7ws]:%SET_T2%
-ItemDisplay[SET !ID !ETH (9mt OR 7ma OR 7m7)(FILTLVL<5 OR SHOW_T1)]:%SET_T1%
+ItemDisplay[SET !ID !ETH (9mt OR 7ma OR 7m7) (FILTLVL<5 OR SHOW_T1)]:%SET_T1%
 ItemDisplay[SET !ID ETH 7ws]:%SET_T2%
-ItemDisplay[SET !ID ETH (9mt OR 7ma)(FILTLVL<5 OR SHOW_T1)]:%SET_T1%
+ItemDisplay[SET !ID ETH (9mt OR 7ma) (FILTLVL<5 OR SHOW_T1)]:%SET_T1%
+//Polearm
+//Spear
 //Sword
-ItemDisplay[SET !ID !ETH (7fb OR 7gd)(FILTLVL<5 OR SHOW_T1)]:%SET_T1%
+ItemDisplay[SET !ID !ETH (7fb OR 7gd) (FILTLVL<5 OR SHOW_T1)]:%SET_T1%
 ItemDisplay[SET !ID ETH (7fb OR 7gd)]:%SET_T2%
 //Staff
-ItemDisplay[SET !ID !ETH 6cs(FILTLVL<5 OR SHOW_T1)]:%SET_T1%
-ItemDisplay[SET !ID ETH 6cs(FILTLVL<5 OR SHOW_T1)]:%SET_T1%
+ItemDisplay[SET !ID !ETH 6cs (FILTLVL<5 OR SHOW_T1)]:%SET_T1%
+ItemDisplay[SET !ID ETH 6cs (FILTLVL<5 OR SHOW_T1)]:%SET_T1%
 //Class Armor
-ItemDisplay[SET !ID !ETH (ba5 OR dr8)(FILTLVL<5 OR SHOW_T1)]:%SET_T1%
-ItemDisplay[SET !ID ETH (ba5 OR dr8)(FILTLVL<5 OR SHOW_T1)]:%SET_T1%
+ItemDisplay[SET !ID !ETH (ba5 OR dr8) (FILTLVL<5 OR SHOW_T1)]:%SET_T1%
+ItemDisplay[SET !ID ETH (ba5 OR dr8) (FILTLVL<5 OR SHOW_T1)]:%SET_T1%
 //Class Shield
 ItemDisplay[SET !ID !ETH paf]:%SET_T2%
-ItemDisplay[SET !ID !ETH ne9(FILTLVL<5 OR SHOW_T1)]:%SET_T1%
-ItemDisplay[SET !ID ETH (paf OR ne9)(FILTLVL<5 OR SHOW_T1)]:%SET_T1%
+ItemDisplay[SET !ID !ETH ne9 (FILTLVL<5 OR SHOW_T1)]:%SET_T1%
+ItemDisplay[SET !ID ETH (paf OR ne9) (FILTLVL<5 OR SHOW_T1)]:%SET_T1%
 //Class Weapon
 ItemDisplay[SET !ID !ETH 7qr]:%SET_T2%
-ItemDisplay[SET !ID !ETH (amc OR oba)(FILTLVL<5 OR SHOW_T1)]:%SET_T1%
+ItemDisplay[SET !ID !ETH (amc OR oba) (FILTLVL<5 OR SHOW_T1)]:%SET_T1%
 ItemDisplay[SET !ID ETH 7qr]:%SET_T2%
-ItemDisplay[SET !ID ETH oba(FILTLVL<5 OR SHOW_T1)]:%SET_T1%
+ItemDisplay[SET !ID ETH oba (FILTLVL<5 OR SHOW_T1)]:%SET_T1%
 \~~~
 /~~~Mag/Rare Items
 //Misc
