@@ -3,9 +3,6 @@ A simple, clean, community driven loot filter
 
 The goal of this filter was to provide a simple, and lightweight lootfilter to eliminate the clutter on the ground, while highlighting the items that are *actually* worth picking up. 
 
-## Features in development
-* Automate tier changes for unique/rare items based on tradesite
-
 ## Features
 * Toggles for revealed unique/set names
 * Socketing/Upgrading/Crafting recipes
@@ -20,3 +17,6 @@ The filter is driven primarily based on the market-value of items that drop, wit
 * 4: Items worth between 0.25 - 0.49
 * 5: Items worth between 0.5 and up
 * 6: Runes worth 2.0 or more, and DClone/Rathma gear
+
+## Features in development
+* Automate tier changes for unique/rare items based on tradesite
