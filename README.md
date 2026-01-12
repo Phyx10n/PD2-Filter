@@ -3,18 +3,14 @@ A simple, clean, community driven loot filter
 
 The goal of this filter was to provide a simple, and lightweight lootfilter to eliminate the clutter on the ground, while highlighting the items that are *actually* worth picking up. 
 
-This filter is being actively worked on, so do forgive any blemishes you happen to notice along the way. 
-
 ## Features in development
-* NMAG drop logic rework to incorporate any missing high-value bases
-* Affixes for mag/rare/crafted items (enabled by default, but not complete)
 * Automate tier changes for unique/rare items based on tradesite
 
 ## Features
 * Toggles for revealed unique/set names
 * Socketing/Upgrading/Crafting recipes
 * Map immunities, and highest resistances
-* PoE tink drop sounds on items T2 and up
+* PoE tink drop sounds on items T3 and up
 
 ## Item values
 The filter is driven primarily based on the market-value of items that drop, with the goal being to allow you to eliminate items below a certain threshold of value with filter levels as you go. 
