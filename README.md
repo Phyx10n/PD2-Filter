@@ -23,7 +23,7 @@ The filter is driven primarily based on the market-value of items that drop, wit
 * Starter - Hides inferior/1os runeword bases + tp/id scrolls + misc potions
 * Relaxed - Hides low rare weapons + magic armor/weapons/rings + gems below flawless
 * Strict - Hides unique/set items below T1 + mid crafting bases + mid rare armor/weapons + magic amulets/large charms + low runeword bases
-* Extreme - Hides T1 unique/set + rare armor/weapon/jewelry + low charm/jewel + mid bases + flawless gems
+* Extreme - Hides T1 unique/set + rare armor/weapons/jewelry + ILVL<90 charms + magic ILVL<85 jewels + mid runeword bases + flawless gems
 
 ## Features in Development
 * Automate tier changes for unique/rare items based on tradesite API
