@@ -3,6 +3,8 @@ A simple, clean, community driven loot filter
 
 The goal of this filter was to provide a simple, lightweight, vanilla friendly lootfilter to eliminate the clutter on the ground, while highlighting the items that are *actually* worth picking up. 
 
+The filter makes minimal changes to item colors/text, other than dots surrounding the items to indicate value, affix tagging on magic/rare items, and some minor changes to potions/gems for easier identification and smaller titles. 
+
 ## Features
 * Socketing/Upgrading recipes
 * Map immunities, and highest resistances
