@@ -20,3 +20,6 @@ The filter is driven primarily based on the market-value of items that drop, wit
 
 ## Features in development
 * Automate tier changes for unique/rare items based on tradesite
+
+## Filter Example
+<img width="1606" height="1020" alt="image" src="https://github.com/user-attachments/assets/3184481e-cedb-40a8-be1c-3e149a7f1d29" />
