@@ -4,10 +4,10 @@ A simple, clean, community driven loot filter
 The goal of this filter was to provide a simple, lightweight, vanilla friendly lootfilter to eliminate the clutter on the ground, while highlighting the items that are *actually* worth picking up. 
 
 ## Features
-* Toggles for revealed unique/set names, potions, and 
 * Socketing/Upgrading recipes
 * Map immunities, and highest resistances
 * PoE tink drop sounds on items T3 and up
+* Manual toggles for revealed unique/set names, T1 unique/set items, and potions
 
 ## Item Values
 The filter is driven primarily based on the market-value of items that drop, with the goal being to allow you to eliminate items below a certain threshold of value with filter levels as you go. 
