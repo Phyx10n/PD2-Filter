@@ -6,7 +6,7 @@ The goal of this filter was to provide a simple, lightweight, vanilla friendly l
 The filter makes minimal changes to item colors/text, other than dots surrounding the items to indicate value, staffmod/affix/socket/ethereal/corruption indicators on relevant items, and some minor changes to potions/gems for easier identification and smaller titles. 
 
 ## Features
-* Socketing/Upgrading recipes
+* Socket/Upgrade recipes
 * Map immunities, and highest resistances
 * PoE tink drop sounds on items T3 and up
 * Manual toggles for revealed unique/set names, T1 unique/set items, and potions
