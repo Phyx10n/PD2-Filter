@@ -11,8 +11,7 @@ The filter makes minimal changes to item colors/text, other than dots surroundin
 * PoE tink drop sounds on items T3 and up
 * Manual toggles for revealed unique/set names, T1 unique/set items, and potions
 
-## Item Values
-The filter is driven primarily based on the market-value of items that drop, with the goal being to allow you to eliminate items below a certain threshold of value with filter levels as you go. 
+## Item Value Tiers
 * T1: Items worth 0.01 - 0.04, but still potentially worth picking up/corrupting along with magic/rare items with potential value
 * T2: Items worth between 0.05 - 0.09
 * T3: Items worth between 0.1 - 0.24
