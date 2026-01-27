@@ -1469,6 +1469,16 @@ ItemDisplay[NMAG !INF !RW SOCK>1 (ARMOR OR WEAPON) FILTLVL<2]:%NONE_T0%
 //Hide
 ItemDisplay[NMAG !RW !MISC GROUND]:{%NAME%}
 #\\\
+#///Crafting Bases
+//Crafting Bases
+ItemDisplay[CRAFTING (MAG OR RARE) !ID ETH (gax OR 9ga OR 7ga OR mau OR 9m9 OR 7m7 OR flb OR 9fb OR 7fb OR gsd OR 9gd OR 7gd OR glv OR 9gl OR 7gl OR pik OR 9p9 OR 7p7 OR axf OR 9xf OR 7xf) CRAFTALVL>76]:%ORANGE_T1%
+ItemDisplay[CRAFTING AMAZON (MAG OR RARE) !ID (am2 OR am7 OR amc) CRAFTALVL>76]:%ORANGE_T1%
+ItemDisplay[CRAFTING ASSASSIN (MAG OR RARE) !ID ETH (ktr OR 9ar OR 7ar OR skr OR 9qr OR 7qr) CRAFTALVL>76]:%ORANGE_T1%
+ItemDisplay[CRAFTING BARBARIAN (MAG OR RARE) !ID ETH (gix OR 9gi OR 7gi OR whm OR 9wh OR 7wh OR gma OR 9gm OR 7gm OR gis OR 9gs OR 7gs OR pil OR 9pi OR 7pi OR ssp OR 9s9 OR 7s7 OR tsp OR 9ts OR 7ts) CRAFTALVL>76]:%ORANGE_T1%
+ItemDisplay[CRAFTING DRUID (MAG OR RARE) !ID ETH (btx OR 9bt OR 7bt OR gix OR 9gi OR 7gi) CRAFTALVL>76]:%ORANGE_T1%
+ItemDisplay[CRAFTING PALADIN (MAG OR RARE) !ID ETH (mac OR 9ma OR 7ma OR mst OR 9mt OR 7mt OR fla OR 9fl OR 7fl) CRAFTALVL>76]:%ORANGE_T1%
+ItemDisplay[CRAFTING SORCERESS (MAG OR RARE) !ID (ob5 OR oba OR obf) CRAFTALVL>76]:%ORANGE_T1%
+#\\\
 #///Magic Items
 //Misc
 ItemDisplay[MAG !ID jew ILVL>84]:%BLUE_T1%
@@ -1505,16 +1515,6 @@ ItemDisplay[RARE !ID (gix OR 9gi OR 7gi OR whm OR 9wh OR 7wh OR gma OR 9gm OR 7g
 ItemDisplay[RARE !ID FILTLVL<3]:%NONE_T0%
 //Hide
 ItemDisplay[RARE !ID GROUND]:{%NAME%}
-#\\\
-#///Crafting Bases
-//Crafting Bases
-ItemDisplay[CRAFTING (MAG OR RARE) !ID ETH (gax OR 9ga OR 7ga OR mau OR 9m9 OR 7m7 OR flb OR 9fb OR 7fb OR gsd OR 9gd OR 7gd OR glv OR 9gl OR 7gl OR pik OR 9p9 OR 7p7 OR axf OR 9xf OR 7xf) CRAFTALVL>76]:%ORANGE_T1%
-ItemDisplay[CRAFTING AMAZON (MAG OR RARE) !ID (am2 OR am7 OR amc) CRAFTALVL>76]:%ORANGE_T1%
-ItemDisplay[CRAFTING ASSASSIN (MAG OR RARE) !ID ETH (ktr OR 9ar OR 7ar OR skr OR 9qr OR 7qr) CRAFTALVL>76]:%ORANGE_T1%
-ItemDisplay[CRAFTING BARBARIAN (MAG OR RARE) !ID ETH (gix OR 9gi OR 7gi OR whm OR 9wh OR 7wh OR gma OR 9gm OR 7gm OR gis OR 9gs OR 7gs OR pil OR 9pi OR 7pi OR ssp OR 9s9 OR 7s7 OR tsp OR 9ts OR 7ts) CRAFTALVL>76]:%ORANGE_T1%
-ItemDisplay[CRAFTING DRUID (MAG OR RARE) !ID ETH (btx OR 9bt OR 7bt OR gix OR 9gi OR 7gi) CRAFTALVL>76]:%ORANGE_T1%
-ItemDisplay[CRAFTING PALADIN (MAG OR RARE) !ID ETH (mac OR 9ma OR 7ma OR mst OR 9mt OR 7mt OR fla OR 9fl OR 7fl) CRAFTALVL>76]:%ORANGE_T1%
-ItemDisplay[CRAFTING SORCERESS (MAG OR RARE) !ID (ob5 OR oba OR obf) CRAFTALVL>76]:%ORANGE_T1%
 #\\\
 #///Set Items
 //Misc
@@ -1567,7 +1567,7 @@ ItemDisplay[SET !ID !ETH (amc OR oba) FILTLVL<4]:%GREEN_T1%
 ItemDisplay[SET !ID ETH 7qr]:%GREEN_T2%
 ItemDisplay[SET !ID ETH oba FILTLVL<4]:%GREEN_T1%
 //Catch All
-ItemDisplay[SET !ID FILTLVL<3]:%GREEN_T0%
+ItemDisplay[SET !ID FILTLVL<3]:%GREEN_T0%%TIER-1%
 //Hide
 ItemDisplay[SET !ID GROUND]:{%NAME%}
 #\\\
@@ -1713,7 +1713,7 @@ ItemDisplay[UNI !ID ETH (amd OR ame OR amf OR 7wb OR 7xf)]:%GOLD_T3%
 ItemDisplay[UNI !ID ETH (am9 OR ama OR 9tw OR 7tw OR obc)]:%GOLD_T2%
 ItemDisplay[UNI !ID ETH (7cs OR 7lw OR oba) FILTLVL<4]:%GOLD_T1%
 //Catch All
-ItemDisplay[UNI !ID FILTLVL<3]:%GOLD_T0%
+ItemDisplay[UNI !ID FILTLVL<3]:%GOLD_T0%%TIER-1%
 //Hide
 ItemDisplay[UNI !ID GROUND]:{%NAME%}
 #\\\
