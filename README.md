@@ -5,6 +5,12 @@ The goal of this filter was to provide a simple, lightweight, vanilla friendly l
 
 The filter makes minimal changes to item colors/text, other than dots surrounding the items to indicate value, staffmod/affix/socket/ethereal/corruption indicators on relevant items, and some minor changes to potions/gems for easier identification and smaller titles. 
 
+## Versions
+* Main: Regular version of the filter for most users
+* Revealed: Shows unique names when unidentified
+* Crafting: Shows crafting bases
+* Beta: Main, but with additional experimental features
+
 ## Features
 * Socket/Upgrade recipes
 * Map immunities, and highest resistances
