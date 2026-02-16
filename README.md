@@ -23,7 +23,7 @@ The filter makes minimal changes to item colors/text, other than dots surroundin
 * T3: Items worth between 0.1 - 0.24
 * T4: Items worth between 0.25 - 0.49
 * T5: Items worth between 0.5 and up
-* T6: Runes worth 2.0 or more, and DClone/Rathma gear
+* T6: Runes worth 1.0 or more, and DClone/Rathma gear
 
 ## Filter Levels
 
