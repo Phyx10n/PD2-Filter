@@ -5,14 +5,14 @@
       "file_name": "main.filter"
     },
     "2": {
-      "display_name": "Revealed",
-      "description": "",
-      "file_name": "revealed.filter"
+      "display_name": "Crafting",
+      "description": "Highlights crafting bases",
+      "file_name": "crafting.filter"
     },
     "3": {
-      "display_name": "Crafting",
-      "description": "",
-      "file_name": "crafting.filter"
+      "display_name": "Revealed",
+      "description": "Shows unidentified Set/Unique names",
+      "file_name": "revealed.filter"
     },
     "4": {
       "display_name": "Crafting + Revealed",
