@@ -1,0 +1,23 @@
+ "filter_info": {
+    "1": {
+      "display_name": "Main",
+      "description": "",
+      "file_name": "main.filter"
+    },
+    "2": {
+      "display_name": "Revealed",
+      "description": "",
+      "file_name": "revealed.filter"
+    },
+    "3": {
+      "display_name": "Crafting",
+      "description": "",
+      "file_name": "crafting.filter"
+    },
+    "4": {
+      "display_name": "Crafting + Revealed",
+      "description": "",
+      "file_name": "crafting+revealed.filter"
+    },
+  }
+}
